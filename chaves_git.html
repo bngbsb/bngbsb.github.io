@@ -104,7 +104,55 @@
 						</ol>
 					</div>
 				 </li>
-				<li> Teste 3 brule </li>
+				<li> 
+					Associação da chave SSH ao SSH-Agent 
+					<div class= "estilo_ol">
+						<ol>
+							<li>
+								Em sua linha de comando, digite 
+								<b><i>
+									eval "$(ssh-agent -s)"
+								</i></b>
+								. O código que aparecerá após "Agent pid" será
+								necessário, por isso, não o perca.
+								<br><br>
+								<div class= "div_imagem_centralizada">
+									<img src= "img/tela3_tutorial.png">
+								</div>
+								<br>
+							</li>
+							<li>
+								Para saber qual é a sua chave privada, liste os 
+								arquivos da pasta <i>.ssh</i> com o comando
+								<b><i>
+								ls .ssh
+								</i></b>
+								, assim como mostra a imagem a seguir. A chave 
+								pública tem a extensão <i>.pub</i>, portanto, o 
+								arquivo que não tem extensão é a chave privada.
+								<br><br>
+								<div class= "div_imagem_centralizada">
+									<img src= "img/tela5_tutorial.png">
+								</div>
+								<br>
+							</li>
+							<li>
+								Para executar o próximo comando, digite 
+								<b><i>
+									ssh-add ~/.ssh/id_ed25519
+								</i></b>
+								, substituindo "id_ed25519" pela chave SSH
+								<u>privada</u>!!!
+								<br><br>
+								<div class= "div_imagem_centralizada">
+									<img src= "img/tela4_tutorial.png">
+								</div>
+								<br>
+							</li>
+						</ol>
+					</div>
+				</li>
+				<li> Teste 4</li>
 			</ul>
 		</div>
 	</body>
