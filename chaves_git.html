@@ -72,7 +72,37 @@
 				</li>
 				<li> 
 					Passo 2: Criação da chave
-						<br>
+					<br>
+					<div class= "estilo_ol">
+						<ol>
+							<li>
+								Após verificar que você ainda não tem uma chave
+								SSH pública, cole o comando a seguir no terminal 
+								<i><b>
+									"ssh-keygen -t ed25519 -C 'your_email@example.com'"
+								</b></i>	
+								ou 
+								<i><b>
+								"ssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
+								</b></i>
+								. Lembre-se de trocar 'your_email@example.com' pelo
+								email que você cadastrou em sua conta do GitHub.
+								<div class= "div_imagem_centralizada">
+									<img src= "img/tela2_tutorial.png">
+								</div>
+							</li>
+							<li> 
+								Assim que surgir a mensagem "Enter a file in 
+								which to save the key", pressione a tecla enter.
+							</li>
+							<li>
+								Após o surgimento da frase
+								"Enter passphrase (empty for no passphrase):",
+								escolha e digite a senha que usará para a sua
+								chave SSH.
+							</li>
+						</ol>
+					</div>
 				 </li>
 				<li> Teste 3 brule </li>
 			</ul>
