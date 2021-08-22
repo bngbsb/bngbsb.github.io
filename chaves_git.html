@@ -15,8 +15,14 @@
   				align-items: center; width: 450px; color: #513000}
   			.div_linha_inteira {display: flex; justify-content: center; 
   				align-items: center; padding: 10px}
-  			.estilo_ul {font-family: monospace; font-size: 1.17em; 
-  				list-style-image: url('img/mao_para_direita-25x18.png');}
+  			.estilo_ul {font-family: monospace; font-size: 1.5em; 
+  				list-style-image: url('img/mao_para_direita-25x18.png'); 
+  				color: #CAA71F}
+  			.estilo_ol {list-style-type: lower-alpha; color: #513000; 
+  				font-family: sans-serif; padding: 5px; text-align: justify; 
+  				font-size: 15px; list-style-image: none;}
+  			.div_imagem_centralizada {display: flex; justify-content: center;
+  				align-items: center;}
 		</style>
 	</head>
 	<body>
@@ -42,13 +48,32 @@
 		<div class= "estilo_ul">
 			<ul>
 				<li> 
-					Teste 
+					1º passo: Verificação
 					<br> 
-					<div class= "texto_comum">
-						Escrevi alguma coisa para marcar o início de uma nova div.
+					<div class= "estilo_ol">
+						<ol>
+							<li>
+								Verifique a existência de uma chave de segurança
+								(SSH).Para isso, abra o terminal e digite 
+								ls -al ~/.ssh <br><br>
+								<div class= "div_imagem_centralizada">
+									<img src= "img/tela1_tutorial-cortado.png">
+								</div>
+								<br><br>
+							</li>
+							<li>
+								Em caso de não aparecerem arquivos chamados
+								"id_rsa.pub", "id_ecdsa.pub" ou "id_ed25519.pub". 
+								Se estes nomes não aparecerem, você ainda não tem
+								uma chave SSH pública.
+							</li>
+						</ol>
 					</div>
 				</li>
-				<li> Teste 2 </li>
+				<li> 
+					Passo 2: Criação da chave
+						<br>
+				 </li>
 				<li> Teste 3 brule </li>
 			</ul>
 		</div>
