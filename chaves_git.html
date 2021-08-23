@@ -23,6 +23,8 @@
   				font-size: 15px; list-style-image: none;}
   			.div_imagem_centralizada {display: flex; justify-content: center;
   				align-items: center;}
+  			.final {font-family: monospace; text-align: center; align-items: center;
+  				color: blue; font-size: 1.5em; }
 		</style>
 	</head>
 	<body>
@@ -194,12 +196,62 @@
 								</div>
 								<br>
 							</li>
+							<li>
+								Depois, poderemos observar uma aba do lado esquerdo
+								da tela, cujo título é Account settings/Configurações
+								de conta. Nesta aba, clique em 
+								<b>
+								Chaves SSH e GPG/SSH and GPG Keys
+								</b>
+								.
+								<br><br>
+								<div class= "div_imagem_centralizada">
+									<img src= "img/tela9_tutorial.png">
+								</div>
+								<br>
+							</li>
+							<li>
+								Clique no botão "New SSH Key" e cole a sua chave
+								pública copiada pelo comando 
+								<i><b>
+								xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+								</b></i>
+								no campo "key" e, em seguida, preencha o título
+								com um nome que o remeta ao dispositivo referente
+								à chave, uma vez que uma mesma pessoa pode ter 
+								várias SSH Keys.
+							</li>
+							<li>
+								Para testar sua chave SSH, utiize o comando 
+								<i><b>
+								ssh -T git@github.com
+								</b></i>
+								.
+								<br><br>
+								<div class= "div_imagem_centralizada">
+									<img src= "img/tela10_tutorial.png">
+								</div>
+								<br>
+							</li>	
+							<li>
+								O último passo é configurar o Git para se autenticar 
+								no GitHub por meio do comando 
+								<i><b>
+								git remote set-url origin git@github.com:username/your-repository.git
+								</b></i>
+								. Este comando deverá ser executado 
+								<u>
+								dentro do repositório
+								</u> 
+								do projeto.
+							</li>
 						</ol>
 					</div>
 				</li>
-				
-				<li>Teste 5</li>
 			</ul>
+		</div>
+		<div class = "final">
+			Parabéns! Você já tem a sua própria chave SSH do GitHub!
 		</div>
 	</body>
 </html>
