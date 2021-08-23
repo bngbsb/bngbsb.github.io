@@ -1,257 +1,258 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Tutorial - como criar sua chave de acesso ao GitHub</title>
-		<style>
-			.titulo_principal {font-size: 30px; text-align: center; color: #0E0B7A; 
-				font-family: monospace, sans-serif; padding: 10px}
-			.texto_comum {color: #513000; font-family: sans-serif; padding: 5px;
-				text-align: justify; font-size: 15px}
-			.linha {width: 500px; height: 3px; border: 1px solid;
-					background: #000000;}
-			.texto_com_imagem {height: 30px; border: 10px solid;
-				border-width: 2px; display: flex; justify-content: center;
-  				align-items: center; width: 450px; color: #513000}
-  			.div_linha_inteira {display: flex; justify-content: center; 
-  				align-items: center; padding: 10px}
-  			.estilo_ul {font-family: monospace; font-size: 1.5em; 
-  				list-style-image: url('img/mao_para_direita-25x18.png'); 
-  				color: #CAA71F}
-  			.estilo_ol {list-style-type: lower-alpha; color: #513000; 
-  				font-family: sans-serif; padding: 5px; text-align: justify; 
-  				font-size: 15px; list-style-image: none;}
-  			.div_imagem_centralizada {display: flex; justify-content: center;
-  				align-items: center;}
-  			.final {font-family: monospace; text-align: center; align-items: center;
-  				color: blue; font-size: 1.5em; }
-		</style>
-	</head>
-	<body>
-		<div class= "titulo_principal">
-			Como criar a sua própria chave para acesso no GitHub?
-		</div>
-		<hr class= "linha">
-		<br>
-		<div class= "texto_comum">
-			De acordo com a nova atualização do GitHub, um usuário da plataforma,
-			por questões de segurança, não deve colocar seu nome de usuário e senha 
-			para acessar e/ou fazer modificações pelo seu terminal. Agora, é 
-			requisitada uma chave de acesso para que ele possa livremente alterar
-			o conteúdo de sua página remotamente. Mas o que é e como criar a sua
-			própria chave de acesso?
-		</div>
-		<div class= "div_linha_inteira">
-			<div class="texto_com_imagem">
-				Se liga que a resposta está aqui embaixo!!!
-				<img src= "img/mao_para_baixo-25x25.png">
-			</div>
-		</div>
-		<div class= "estilo_ul">
-			<ul>
-				<li> 
-					1º passo: Verificação
-					<br> 
-					<div class= "estilo_ol">
-						<ol>
-							<li>
-								Verifique a existência de uma chave de segurança
-								(SSH).Para isso, abra o terminal e digite 
-								ls -al ~/.ssh <br><br>
-								<div class= "div_imagem_centralizada">
-									<img src= "img/tela1_tutorial-cortado.png">
-								</div>
-								<br><br>
-							</li>
-							<li>
-								Em caso de não aparecerem arquivos chamados
-								"id_rsa.pub", "id_ecdsa.pub" ou "id_ed25519.pub". 
-								Se estes nomes não aparecerem, você ainda não tem
-								uma chave SSH pública.
-							</li>
-						</ol>
-					</div>
-				</li>
-				<li> 
-					Passo 2: Criação da chave
-					<br>
-					<div class= "estilo_ol">
-						<ol>
-							<li>
-								Após verificar que você ainda não tem uma chave
-								SSH pública, cole o comando a seguir no terminal 
-								<i><b>
-									"ssh-keygen -t ed25519 -C 'your_email@example.com'"
-								</b></i>	
-								ou 
-								<i><b>
-								"ssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
-								</b></i>
-								. Lembre-se de trocar 'your_email@example.com' pelo
-								email que você cadastrou em sua conta do GitHub.
-								<div class= "div_imagem_centralizada">
-									<img src= "img/tela2_tutorial.png">
-								</div>
-							</li>
-							<li> 
-								Assim que surgir a mensagem "Enter a file in 
-								which to save the key", pressione a tecla enter.
-							</li>
-							<li>
-								Após o surgimento da frase
-								"Enter passphrase (empty for no passphrase):",
-								escolha e digite a senha que usará para a sua
-								chave SSH.
-							</li>
-						</ol>
-					</div>
-				 </li>
-				<li> 
-					Associação da chave SSH ao SSH-Agent 
-					<div class= "estilo_ol">
-						<ol>
-							<li>
-								Em sua linha de comando, digite 
-								<b><i>
-									eval "$(ssh-agent -s)"
-								</i></b>
-								. O código que aparecerá após "Agent pid" será
-								necessário, por isso, não o perca.
-								<br><br>
-								<div class= "div_imagem_centralizada">
-									<img src= "img/tela3_tutorial.png">
-								</div>
-								<br>
-							</li>
-							<li>
-								Para saber qual é a sua chave privada, liste os 
-								arquivos da pasta <i>.ssh</i> com o comando
-								<b><i>
-								ls .ssh
-								</i></b>
-								, assim como mostra a imagem a seguir. A chave 
-								pública tem a extensão <i>.pub</i>, portanto, o 
-								arquivo que não tem extensão é a chave privada.
-								<br><br>
-								<div class= "div_imagem_centralizada">
-									<img src= "img/tela5_tutorial.png">
-								</div>
-								<br>
-							</li>
-							<li>
-								Para executar o próximo comando, digite 
-								<b><i>
-									ssh-add ~/.ssh/id_ed25519
-								</i></b>
-								, substituindo "id_ed25519" pela chave SSH
-								<u>privada</u>!!!
-								<br><br>
-								<div class= "div_imagem_centralizada">
-									<img src= "img/tela4_tutorial.png">
-								</div>
-								<br>
-							</li>
-						</ol>
-					</div>
-				</li>
-				<li>
-					Adicionar uma nova chave SSH à sua conta do GitHub
-					<div class= "estilo_ol">
-						<ol>
-							<li>
-								Instale o programa xclip com o comando 
-								<i><b>
-								sudo apt-get install xclip
-								</b></i>
-								.
-								<br><br>
-								<div class= "div_imagem_centralizada">
-									<img src= "img/tela6_tutorial.png">
-								</div>
-								<br>
-							</li>
-							<li>
-								Copie a sua chave <u>pública</u> (que ensinamos 
-								a acessar no tópico 2 da sessão anterior) para a 
-								área de transferência de seu computador com o 
-								comando 
-								<i><b>
-								xclip -selection clipboard < ~/.ssh/id_ed25519.pub
-								</b></i>
-								, substituindo <i>id_ed25519.pub</i> por sua chave
-								pública.
-								<br><br>
-								<div class= "div_imagem_centralizada">
-									<img src= "img/tela7_tutorial.png">
-								</div>
-								<br>
-							</li>
-							<li>
-								Já na plataforma do GitHub, no canto superior 
-								direito, clique na sua foto de perfil e, em 
-								seguida, clique em <b>Configurações/Settings</b>.
-								<br><br>
-								<div class= "div_imagem_centralizada">
-									<img src= "img/tela8_tutorial.png">
-								</div>
-								<br>
-							</li>
-							<li>
-								Depois, poderemos observar uma aba do lado esquerdo
-								da tela, cujo título é Account settings/Configurações
-								de conta. Nesta aba, clique em 
-								<b>
-								Chaves SSH e GPG/SSH and GPG Keys
-								</b>
-								.
-								<br><br>
-								<div class= "div_imagem_centralizada">
-									<img src= "img/tela9_tutorial.png">
-								</div>
-								<br>
-							</li>
-							<li>
-								Clique no botão "New SSH Key" e cole a sua chave
-								pública copiada pelo comando 
-								<i><b>
-								xclip -selection clipboard < ~/.ssh/id_ed25519.pub
-								</b></i>
-								no campo "key" e, em seguida, preencha o título
-								com um nome que o remeta ao dispositivo referente
-								à chave, uma vez que uma mesma pessoa pode ter 
-								várias SSH Keys.
-							</li>
-							<li>
-								Para testar sua chave SSH, utiize o comando 
-								<i><b>
-								ssh -T git@github.com
-								</b></i>
-								.
-								<br><br>
-								<div class= "div_imagem_centralizada">
-									<img src= "img/tela10_tutorial.png">
-								</div>
-								<br>
-							</li>	
-							<li>
-								O último passo é configurar o Git para se autenticar 
-								no GitHub por meio do comando 
-								<i><b>
-								git remote set-url origin git@github.com:username/your-repository.git
-								</b></i>
-								. Este comando deverá ser executado 
-								<u>
-								dentro do repositório
-								</u> 
-								do projeto.
-							</li>
-						</ol>
-					</div>
-				</li>
-			</ul>
-		</div>
-		<div class = "final">
-			Parabéns! Você já tem a sua própria chave SSH do GitHub!
-		</div>
-	</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tutorial - como criar sua chave de acesso ao GitHub</title>
+        <style>
+            .titulo_principal {font-size: 30px; text-align: center; color: #0E0B7A; 
+                font-family: monospace, sans-serif; padding: 10px}
+            .texto_comum {color: #513000; font-family: sans-serif; padding: 5px;
+                text-align: justify; font-size: 15px}
+            .linha {width: 500px; height: 3px; border: 1px solid;
+                    background: #000000;}
+            .texto_com_imagem {height: 30px; border: 10px solid;
+                border-width: 2px; display: flex; justify-content: center;
+                  align-items: center; width: 450px; color: #513000}
+              .div_linha_inteira {display: flex; justify-content: center; 
+                  align-items: center; padding: 10px}
+              .estilo_ul {font-family: monospace; font-size: 1.5em; 
+                  list-style-image: url('img/mao_para_direita-25x18.png'); 
+                  color: #CAA71F}
+              .estilo_ol {list-style-type: lower-alpha; color: #513000; 
+                  font-family: sans-serif; padding: 5px; text-align: justify; 
+                  font-size: 15px; list-style-image: none;}
+              .div_imagem_centralizada {display: flex; justify-content: center;
+                  align-items: center;}
+              .final {font-family: monospace; text-align: center; align-items: center;
+                  color: 0c41e7; font-size: 3em; border-style: dotted; 
+border-color: 513000;}
+        </style>
+    </head>
+    <body>
+        <div class= "titulo_principal">
+            Como criar a sua própria chave para acesso no GitHub?
+        </div>
+        <hr class= "linha">
+        <br>
+        <div class= "texto_comum">
+            De acordo com a nova atualização do GitHub, um usuário da plataforma,
+            por questões de segurança, não deve colocar seu nome de usuário e senha 
+            para acessar e/ou fazer modificações pelo seu terminal. Agora, é 
+            requisitada uma chave de acesso para que ele possa livremente alterar
+            o conteúdo de sua página remotamente. Mas o que é e como criar a sua
+            própria chave de acesso?
+        </div>
+        <div class= "div_linha_inteira">
+            <div class="texto_com_imagem">
+                Se liga que a resposta está aqui embaixo!!!
+                <img src= "img/mao_para_baixo-25x25.png">
+            </div>
+        </div>
+        <div class= "estilo_ul">
+            <ul>
+                <li> 
+                    1º passo: Verificação
+                    <br> 
+                    <div class= "estilo_ol">
+                        <ol>
+                            <li>
+                                Verifique a existência de uma chave de segurança
+                                (SSH).Para isso, abra o terminal e digite 
+                                ls -al ~/.ssh <br><br>
+                                <div class= "div_imagem_centralizada">
+                                    <img src= "img/tela1_tutorial-cortado.png">
+                                </div>
+                                <br><br>
+                            </li>
+                            <li>
+                                Em caso de não aparecerem arquivos chamados
+                                "id_rsa.pub", "id_ecdsa.pub" ou "id_ed25519.pub" 
+                                , você ainda não tem
+                                uma chave SSH pública.
+                            </li>
+                        </ol>
+                    </div>
+                </li>
+                <li> 
+                    2º passo: Criação da chave
+                    <br>
+                    <div class= "estilo_ol">
+                        <ol>
+                            <li>
+                                Após verificar que você ainda não tem uma chave
+                                SSH pública, cole o comando a seguir no terminal 
+                                <i><b>
+                                    "ssh-keygen -t ed25519 -C 'your_email@example.com'"
+                                </b></i>    
+                                ou 
+                                <i><b>
+                                "ssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
+                                </b></i>
+                                . Lembre-se de trocar 'your_email@example.com' pelo
+                                email que você cadastrou em sua conta do GitHub.
+                                <div class= "div_imagem_centralizada">
+                                    <img src= "img/tela2_tutorial.png">
+                                </div>
+                            </li>
+                            <li> 
+                                Assim que surgir a mensagem "Enter a file in 
+                                which to save the key", pressione a tecla enter.
+                            </li>
+                            <li>
+                                Após o surgimento da frase
+                                "Enter passphrase (empty for no passphrase):",
+                                escolha e digite a senha que usará para a sua
+                                chave SSH.
+                            </li>
+                        </ol>
+                    </div>
+                 </li>
+                <li> 
+                    3º passo: Associação da chave SSH ao SSH-Agent 
+                    <div class= "estilo_ol">
+                        <ol>
+                            <li>
+                                Em sua linha de comando, digite 
+                                <b><i>
+                                    eval "$(ssh-agent -s)"
+                                </i></b>
+                                . O código que aparecerá após "Agent pid" será
+                                necessário, por isso, não o perca.
+                                <br><br>
+                                <div class= "div_imagem_centralizada">
+                                    <img src= "img/tela3_tutorial.png">
+                                </div>
+                                <br>
+                            </li>
+                            <li>
+                                Para saber qual é a sua chave privada, liste os 
+                                arquivos da pasta <i>.ssh</i> com o comando
+                                <b><i>
+                                ls .ssh
+                                </i></b>
+                                , assim como mostra a imagem a seguir. A chave 
+                                pública tem a extensão <i>.pub</i>, portanto, o 
+                                arquivo que não tem extensão é a chave privada.
+                                <br><br>
+                                <div class= "div_imagem_centralizada">
+                                    <img src= "img/tela5_tutorial.png">
+                                </div>
+                                <br>
+                            </li>
+                            <li>
+                                Para executar o próximo comando, digite 
+                                <b><i>
+                                    ssh-add ~/.ssh/id_ed25519
+                                </i></b>
+                                , substituindo "id_ed25519" pela chave SSH
+                                <u>privada</u>!!!
+                                <br><br>
+                                <div class= "div_imagem_centralizada">
+                                    <img src= "img/tela4_tutorial.png">
+                                </div>
+                                <br>
+                            </li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    4º passo: Adicionar uma nova chave SSH à sua conta do GitHub
+                    <div class= "estilo_ol">
+                        <ol>
+                            <li>
+                                Instale o programa xclip com o comando 
+                                <i><b>
+                                sudo apt-get install xclip
+                                </b></i>
+                                .
+                                <br><br>
+                                <div class= "div_imagem_centralizada">
+                                    <img src= "img/tela6_tutorial.png">
+                                </div>
+                                <br>
+                            </li>
+                            <li>
+                                Copie a sua chave <u>pública</u> (que ensinamos 
+                                a acessar no tópico 2 da sessão anterior) para a 
+                                área de transferência de seu computador com o 
+                                comando 
+                                <i><b>
+                                xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+                                </b></i>
+                                , substituindo <i>id_ed25519.pub</i> por sua chave
+                                pública.
+                                <br><br>
+                                <div class= "div_imagem_centralizada">
+                                    <img src= "img/tela7_tutorial.png">
+                                </div>
+                                <br>
+                            </li>
+                            <li>
+                                Já na plataforma do GitHub, no canto superior 
+                                direito, clique na sua foto de perfil e, em 
+                                seguida, clique em <b>Configurações/Settings</b>.
+                                <br><br>
+                                <div class= "div_imagem_centralizada">
+                                    <img src= "img/tela8_tutorial.png">
+                                </div>
+                                <br>
+                            </li>
+                            <li>
+                                Depois, poderemos observar uma aba do lado esquerdo
+                                da tela, cujo título é Account settings/Configurações
+                                de conta. Nesta aba, clique em 
+                                <b>
+                                Chaves SSH e GPG/SSH and GPG Keys
+                                </b>
+                                .
+                                <br><br>
+                                <div class= "div_imagem_centralizada">
+                                    <img src= "img/tela9_tutorial.png">
+                                </div>
+                                <br>
+                            </li>
+                            <li>
+                                Clique no botão "New SSH Key" e cole a sua chave
+                                pública copiada pelo comando 
+                                <i><b>
+                                xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+                                </b></i>
+                                no campo "key" e, em seguida, preencha o título
+                                com um nome que o remeta ao dispositivo referente
+                                à chave, uma vez que uma mesma pessoa pode ter 
+                                várias SSH Keys.
+                            </li>
+                            <li>
+                                Para testar sua chave SSH, utiize o comando 
+                                <i><b>
+                                ssh -T git@github.com
+                                </b></i>
+                                .
+                                <br><br>
+                                <div class= "div_imagem_centralizada">
+                                    <img src= "img/tela10_tutorial.png">
+                                </div>
+                                <br>
+                            </li>    
+                            <li>
+                                O último passo é configurar o Git para se autenticar 
+                                no GitHub por meio do comando 
+                                <i><b>
+                                git remote set-url origin git@github.com:username/your-repository.git
+                                </b></i>
+                                . Este comando deverá ser executado 
+                                <u>
+                                dentro do repositório
+                                </u> 
+                                do projeto.
+                            </li>
+                        </ol>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class = "final">
+            Parabéns! Você já tem a sua própria chave SSH do GitHub!
+        </div>
+    </body>
 </html>
