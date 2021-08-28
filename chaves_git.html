@@ -27,9 +27,27 @@
                   color: 0c41e7; font-size: 3em; border-style: dotted; border-color: 513000;
                   border-width: 300}
             .div_gif {display: flex; justify-content: center; align-items: center}
+            .div_poupatempo {color: 9C0B4D; align-items: center; justify-content: center; font-family: monospace}
         </style>
     </head>
     <body>
+		<h3>Poupa-tempo!</h3>
+			<div class= "div_poupatempo">
+				<ul>
+					<li>
+						<a href= "#passoum">1º passo: Verificação</a>
+					</li>
+					<li>
+						<a href= "#passodois">2º passo: Criação da chave</a>
+					</li>
+					<li>
+						<a href= "#passotres">3º passo: Associação da chave SSH ao SSH-Agent</a>
+					</li>
+					<li>
+						<a href= "#passoquatro">4º passo: Adicionar uma nova chave SSH à sua conta do GitHub</a>
+					</li>
+				</ul>
+			</div>
         <div class= "titulo_principal">
             Como criar a sua própria chave para acesso no GitHub?
         </div>
@@ -51,7 +69,7 @@
         </div>
         <div class= "estilo_ul">
             <ul>
-                <li> 
+                <li id= "passoum"> 
                     1º passo: Verificação
                     <br> 
                     <div class= "estilo_ol">
@@ -74,7 +92,7 @@
                         </ol>
                     </div>
                 </li>
-                <li> 
+                <li id= "passodois"> 
                     2º passo: Criação da chave
                     <br>
                     <div class= "estilo_ol">
@@ -108,7 +126,7 @@
                         </ol>
                     </div>
                  </li>
-                <li> 
+                <li id= "passotres"> 
                     3º passo: Associação da chave SSH ao SSH-Agent 
                     <div class= "estilo_ol">
                         <ol>
@@ -156,7 +174,7 @@
                         </ol>
                     </div>
                 </li>
-                <li>
+                <li id= "passoquatro">
                     4º passo: Adicionar uma nova chave SSH à sua conta do GitHub
                     <div class= "estilo_ol">
                         <ol>
