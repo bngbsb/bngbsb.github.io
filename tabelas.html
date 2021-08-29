@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<script>
+		function mudaAcor(){
+			alert ('Entrei na função!');
+			galinha=document.getElementById("tabela2");
+			galinha.border="5";
+			galinha.width= "75%";
+			}
+		function ano(){
+			idade= window.prompt("Seu ano de aniversário:");
+			window.alert(idade);
+			celula=document.getElementById("idadeBruna");
+			celula.innerHTML=idade;
+		}
+	</script>
+</head>
+<body>
+	<table style= "border-color: green; border-style: solid;">
+		<tr style= "background-color: black; color: white">
+			<th>
+				Nome
+			</th>
+			<th>
+				Nascimento
+			</th>
+		</tr>
+		<tr>
+			<td>
+				Bruna
+			</td>
+			<td>
+				16/09/2009
+			</td>
+		</tr>
+		<tr style= "background-color: #EAF1F1">
+			<td>
+				Leandro
+			</td>
+			<td>
+				28/06/1979
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Lilian
+			</td>
+			<td>
+				2/06/1958
+			</td>
+		</tr>
+		<tr style= "background-color: #EAF1F1">
+			<td>
+				Antenor
+			</td>
+			<td>
+				16/08/1949
+			</td>
+		</tr>
+	</table>
+	<br>
+	<table style= "border-color: black" id= "tabela2">
+		<tr>
+			<td rowspan= "2">
+				Nome
+			</td>
+			<td colspan="3">
+				Nascimento
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Dia
+			</td>
+			<td>
+				Mês
+			</td>
+			<td>
+				Ano
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Leandro
+			</td>
+			<td>
+				28
+			</td>
+			<td>
+				06
+			</td>
+			<td>
+				1979
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Bruna
+			</td>
+			<td>
+				16
+			</td>
+			<td>
+				09
+			</td>
+			<td id= "idadeBruna">
+				?
+			</td>
+		</tr>
+	</table>
+	<br>
+	<button onclick="mudaAcor()">
+		Clique aqui para mudar exibir um alerta!
+	</button>
+	<button onclick= "ano()">
+		Diga-me o ano em que nasci!
+	</button>
+</body>
+</html>
