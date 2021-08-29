@@ -3,24 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Insert title here</title>
-	<script>
-		function mudaAcor(){
-			alert ('Entrei na função!');
-			galinha=document.getElementById("tabela2");
-			galinha.border="5";
-			galinha.width= "75%";
-			}
-		function ano(){
-			idade= window.prompt("Seu ano de aniversário:");
-			window.alert(idade);
-			celula=document.getElementById("idadeBruna");
-			celula.innerHTML=idade;
-		}
-	</script>
+	<style>
+		.tabela {
+			border-color: black;
+			font-size: 1.5em
+		} 
+	</style>
 </head>
 <body>
-	<table style= "border-color: green; border-style: solid;">
-		<tr style= "background-color: black; color: white">
+	<table id= "t1" border= 1>
+		<caption>
+			TABELA 1 (T1)
+		</caption>
+		<tr style= "background-color: #61807F; color: white">
 			<th>
 				Nome
 			</th>
@@ -62,14 +57,17 @@
 		</tr>
 	</table>
 	<br>
-	<table style= "border-color: black" id= "tabela2">
-		<tr>
-			<td rowspan= "2">
+	<table  id= "t2" border= 1>
+		<caption>
+			TABELA 2 (T2)
+		</caption>
+		<tr style= "background-color: #61807F; color: white">
+			<th rowspan= "2">
 				Nome
-			</td>
-			<td colspan="3">
+			</th>
+			<th colspan="3">
 				Nascimento
-			</td>
+			</th>
 		</tr>
 		<tr>
 			<td>
@@ -112,11 +110,4 @@
 		</tr>
 	</table>
 	<br>
-	<button onclick="mudaAcor()">
-		Clique aqui para mudar exibir um alerta!
-	</button>
-	<button onclick= "ano()">
-		Diga-me o ano em que nasci!
-	</button>
-</body>
 </html>
