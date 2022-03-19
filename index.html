@@ -41,9 +41,30 @@
 			body {
 				margin: 0;
 				padding: 0;
-				background-image: linear-gradient(60deg, white, #F4FF97, #D4FF97, #9AFF97, #97FFBD, #97FFD4);
+				background-image: linear-gradient(240deg, white, #F4FF97, #D4FF97, #9AFF97, #97FFBD, #97FFD4);
 			}
-		</style>
+			.icon-bar {
+				  width: 100%;
+				  background-color: #555;
+				  overflow: auto;
+			}
+			.icon-bar a {
+			  	float: left;
+			  	width: 20%;
+			  	text-align: center;
+			  	padding: 12px 0;
+			  	transition: all 0.3s ease;
+			  	color: white;
+			  	font-size: 36px;
+			}
+			.icon-bar a:hover {
+			  	background-color: #000;
+			}
+
+			.active {
+			  	background-color: #04AA6D;
+			}
+					</style>
 	</head>
 	<body>
 		<div>
@@ -52,15 +73,8 @@
 			</h1>
 		</div>
 		<br>
-		<div class= menu>
-			<ul>
-				<li>
-					<img src="img/OMundoDaGarota_logo.png" width="30" height="30" float= "left"> O Mundo da Garota
-				</li>
-				<li>
-					<a href="/blog"> Blog </a>
-				</li>
-			</ul>
+		<div class="icon-bar">
+			<a class="active" href="./blog"><iframe src="https://giphy.com/embed/ssch69kQpHTUwLXIeE" width="480" height="446" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/blog-da-bru-ssch69kQpHTUwLXIeE">via GIPHY</a></p>a>
 		</div>
 		<div>
 			A tabela a seguir é um resumo de todos os sites da web que já criei.
