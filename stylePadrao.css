@@ -8,6 +8,7 @@ header, main {
   background-color: D5E1EC;
   padding: 10px 5px;
   margin: 5px;
+  width: 50%;
 }
 #logoHeader {
   width: 300;
