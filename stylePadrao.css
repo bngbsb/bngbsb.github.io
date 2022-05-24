@@ -7,6 +7,8 @@ main {
   display: inline-block;
   width: 70%;
   background-color: FFF0FF;
+  padding: 10px 5px;
+  margin: 5px;
 }
 .icon-bar {
     width: 100%;
