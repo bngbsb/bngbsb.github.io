@@ -5,8 +5,7 @@ body {
 }
 main {
   display: inline-block;
-  width: 70%;
-  background-color: FFF0FF;
+  background-color: FF50FF;
   padding: 10px 5px;
   margin: 5px;
 }
