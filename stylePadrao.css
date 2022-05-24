@@ -9,7 +9,7 @@ header, main {
   padding: 10px 5px;
   margin: 5px;
 }
-#logoMain {
+#logoHeader {
   width: 300;
   height: 300;
   display: inline-block;
