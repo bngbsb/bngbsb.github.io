@@ -3,6 +3,11 @@ body {
   padding: 0;
   background-image: linear-gradient(240deg, white, #F4FF97, #D4FF97, #9AFF97, #97FFBD, #97FFD4);
 }
+main {
+  display: inline-block;
+  width: 70%;
+  background-color: FFF0FF;
+}
 .icon-bar {
     width: 100%;
     background-color: #555;
