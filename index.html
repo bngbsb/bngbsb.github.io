@@ -1,256 +1,187 @@
-<!DOCTYPE html>
-
 <html lang="pt-br">
-	
-	<head>
-		<meta charset="UTF-8">
-		<title>
-			O Mundo da Garota
-		</title>
-		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-		<style>
-			.letra_vermelha_grande {
-				color:red;
-				border-width: 5; 
-				border-color: black;
-				text-align: center; 
-				font-family: "monospace"; 
-				border-style: dotted;
-				}
-			.subtitulo {
-				color: fuchsia;
-				text-align: center;
-				font-family: "sans-serif, monospace";
-				}
-			.legenda {
-				font-size: 10pt;
-				color: maroon;
-				text-align: center
-				}
-			.texto_comum {
-				color: #513000;
-				font-family: sans-serif;
-				padding: 5px;
-				text-align: justify
-				}
-			.estilo_ul {
-				color: #DE9307;
-				font-family: monospace, sans-serif;
-				list-style-image: url('img/setaDireita_index_25x25.png');
-			}
-			body {
-				margin: 0;
-				padding: 0;
-				background-image: linear-gradient(240deg, white, #F4FF97, #D4FF97, #9AFF97, #97FFBD, #97FFD4);
-			}
-			.icon-bar {
-				  width: 100%;
-				  background-color: #555;
-				  overflow: auto;
-			}
-			.icon-bar a {
-			  	float: left;
-			  	width: 20%;
-			  	text-align: center;
-			  	padding: 12px 0;
-			  	transition: all 0.3s ease;
-			  	color: white;
-			  	font-size: 36px;
-			}
-			.icon-bar a:hover {
-			  	background-color: #000;
-			}
+    
+    <head>
+        <link rel="stylesheet" href="reset.css">
+        
+        <link rel="stylesheet" href="stylePadrao.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+        
+       <title>
+            Blog da Bru ;)
+        </title>
+      </head>
+    
+      <body>
+              <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+                       <a href="https://bngbsb.github.io/">Home</a>
+                       <a href="#">Services</a>
+                       <a href="#">Clients</a>
+                       <a href="#">Contact</a>
+              </div>   
+</div>
+         <div class="header_main">
+              <header>
+                      <img src="img/OMundoDaGarota_logo.png" id="logoHeader">
+                      <p>
+                          Menu
+                      </p>
+                      <a href="index.html">🏠 Home - O Mundo da Garota 🏠</a>
+                      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+               </header>
+              <main>
+                      <h2>
+                         <p> 
+                            <i>
+                                Hi, guys!
+                            </i> 
+                            Tudo de boa? Meu nome é Bruna, tenho 12 anos e moro em Brasília (DF). Minha matéria favorita na escola é Matemática (sem
+                            preconceito, hein?) e eu AMO estudar 😇. Mas vamos começar do início...
+                         </p>
+                         <p>
+                            Este blog vai contar as mais chocantes - e picantes - curiosidades (fofocas, não, hein? - imagine só, eu, fofocando?! 😅) do meu 
+                            dia-a-dia: do mundo de uma garota! 😎
+                         </p>
+                         <p>
+                            E então? Preparado? Espero que sim! 😉
+                         </p>
+                     </h2>
+             </main>
+         </div>
+          
+        <div class="topBorder">
+            <h3 class="p_mes">
+                <img src="https://images.emojiterra.com/openmoji/v13.1/512px/1f5d3.png" width="60px" height="60px"> Abril de 2022 
+                <img src="https://images.emojiterra.com/openmoji/v13.1/512px/1f5d3.png" width="60px" height="60px">
+            </h3>
+            <h4>
+                <ul>
+                    <br>
+                    <li class="dia">
+                        Dia 3
+                    </li>
+                </ul>
+                <p>
+                    Hoje, meu dia foi um bocado diferente: como fui dormir na casa do meu pai, adivinha onde eu acordei! Na casa do mei pai 😱! 
+                    Pois é, gente, UAU!
+                </p>
+                <p>
+                    Sendo assim, como fui dormir na casa dele, o plano seria acordar mais cedo (mais ou menos 6:30 - da manhã, né?!) e sair pra fazer 
+                    acro ioga - a ioga em dupla. Como ele sabe que eu costumo acordar mais ou menos esse horário, ele nem colocou o despertador: falou 
+                    para que, quando eu levantasse, eu o chamasse para sairmos.
+                </p>
+                <p>
+                    Mas, porém, contudo, todavia, nem sempre a gente tá naquela agitação, né? Como você provavelmente já deduziu, eu não acordei no 
+                    horário que combinamos: quando vi, já eram quase 8:00 (e ouvem-se risinhos em <i>off</i>).
+                </p>
+                <p class="obs">
+                    <i><b>Obs.: </b>Galera, vocês viram que massa? Eu já posso virar dramaturga (não que eu queira, mas enfim, né... 😬)!</i>
+                </p>
+                <p>
+                    Como nós com certeza não conseguiríamos comer, sair e voltar sem estarmos tostados pelo sol das 11h, resolvemos ficar em casa: eu
+                    programando (este blog, inclusive) e ele ocasionalmente me ajudando.
+                </p>
+                <p>
+                    Meus pais são divorciados, então meu pai, quando deu umas 11h, me chamou para me deixar na cassa de minha mãe. No caminho, passamos
+                    Eixão e o Eixinho e não pudemos deixar de observar a quantidade de pessoas que corriam sem camisa e desprotegidas naquele sol. Admiro 
+                    todas elas pela força de vontade, mas se você é uma delas, eu peço: POR FAVOR, não faça isso, não neste horário! Deixo aqui dois 
+                    trechos que nos dão uma ideia do quanto pode ser prejudicial a exposição excessiva ao sol.
+                </p>
+                <p class="obs">
+                    <img src="https://cdn-0.imagensemoldes.com.br/wp-content/uploads/2020/08/Quatation-Marks-Aspas-PNG.png" height="40px" width="40px">
+                    A exposição solar excessiva é o principal fator de risco para o câncer de pele. No Brasil, o câncer de <b>pele não melanoma</b> é o
+                    tumor mais frequente em ambos os sexos.
+                </p>
+                <p class="obs">
+                    As pessoas que se expõem ao sol de forma prolongada e frequente constituem o grupo com maior risco de contrair câncer de pele, 
+                    principalmente aquelas de pele, cabelo e olhos claros.
+                </p>
+                <p class="obs">
+                    O clima tropical, a grande quantidade de praias, a ideia de beleza associada ao bronzeamento, principalmente entre os jovens, e o 
+                    trabalho ao ar livre (por exemplo, na construção civil e na lavoura) favorecem a exposição excessiva à radiação solar.
+                    <img src="https___cdn-0.imagensemoldes.com.br_wp-content_uploads_2020_08_Quatation-Marks-Aspas.png" height="40px" width="40px">
+                </p>
+                <p class="obs">
+                    Disponível em: 
+                    <a href="https://inca.gov.br/causas-e-prevencao/prevencao-e-fatores-de-risco/exposicao-solar" target="_blank"> 
+                        inca.gov.br/causas-e-prevencao/prevencao-e-fatores-de-risco/exposicao-solar
+                    </a>
+                </p>
+                <p class="obs">
+                    <img src="https://cdn-0.imagensemoldes.com.br/wp-content/uploads/2020/08/Quatation-Marks-Aspas-PNG.png" height="40px" width="40px">
+                    O que aumenta o risco [do aparecimento de câncer de pele não-melanoma]?<br>
+                    <ul>
+                        <li>
+                            Exposição prolongada e repetida ao sol (raios ultravioletas - UV), principalmente na infância e adolescência. 
+                        </li>
+                        <li>
+                            Ter pele e olhos claros, com cabelos ruivos ou loiros, ou ser albino.
+                        </li>
+                        <li>
+                            Ter história familiar ou pessoal de câncer de pele.
+                        </li>
+                    </ul>
+                </p>
+                <p class="obs">
+                    Os tumores de pele estão relacionados a alguns fatores de risco, principalmente, à exposição aos raios ultravioletas do sol. Pessoas 
+                    que trabalham sob exposição direta ao sol são mais vulneráveis ao câncer de pele não-melanoma.
+                </p>
+                <p class="obs">
+                    Outros fatores de risco incluem indivíduos com sistema imune debilitado e exposição à radiação artificial.
+                    <img src="https___cdn-0.imagensemoldes.com.br_wp-content_uploads_2020_08_Quatation-Marks-Aspas.png" height="40px" width="40px">
+                </p>
+                <p class="obs">
+                    Disponível em: 
+                    <a href="https://www.inca.gov.br/tipos-de-cancer/cancer-de-pele-nao-melanoma">
+                        https://www.inca.gov.br/tipos-de-cancer/cancer-de-pele-nao-melanoma
+                    </a>
+                </p>
+            </h4>
+        </div>
+    
+        <div class="topBorder">
+            <h3 class="p_mes">
+                <img src="https://images.emojiterra.com/openmoji/v13.1/512px/1f5d3.png" width="60px" height="60px"> Maio de 2022 
+                <img src="https://images.emojiterra.com/openmoji/v13.1/512px/1f5d3.png" width="60px" height="60px">
+            </h3>
+            <h4>
+                <ul>
+                    <li>
+                        Dia 16
+                    </li>
+                </ul>
+                <p>
+                    GENTE eu estou muito feliz!!!!!
+                </p>
+                <p>
+                    Acabei de finalizar um curso da Alura... Como ainda estou iniciando, ele não é muito grande: tem aproximadamente 8 horas de duração.
+                    Eu até ganhei um <a href="https://cursos.alura.com.br/certificate/df4e2909-c911-4dad-9174-f320d63b9c23">certificado</a>! Dá pra acreditar?!?!
+                </p>
+                <p>
+                    Eu gostei MUITO desse curso, então eu recomendo que, se você tiver interesse em programação mas ainda não sabe nada de nada, que o faça.
+                    O instrutor explica bem tudinho... Fica claro como a água depois que você termina. E o que é melhor: só o que você precisa pra começar
+                    o curso é vontade, porque ele começa do zero!
+                </p>
+            </h4>
+        </div>
+        
+        <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "100%";
+            }
 
-			.active {
-			  	background-color: black;
-			}
-			.imgCentro {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-			}
-			.divCentro {
-				margin: auto;
-				text-align: center;
-			}
-			td {
-				padding: 10px;	
-			}
-		</style>
-	</head>
-	<body>
-		<div class="divCentro">
-			<table align="center">
-				<tr>
-					<td>	
-						<img src="img/OMundoDaGarota_logo.png" width="300" height="300" class="imgCentro"> 
-					</td>
-					<td weight="10">
-						Blog <br><br>
-						Sobre <br> 
-					</td>
-				</tr>
-			</table>
-		</div>
-		<br>
-		<div class="icon-bar">
-			<a class="active" href="./blog.html" target="_blank">
-				<iframe src="https://giphy.com/embed/6oDTKlHK8LdOFWTIFu" width="120" height="78" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-			</a>
-			<a href="diario_escolar.html">
-				<iframe src="https://giphy.com/embed/VHzU7K6QbHlAWymARI" width="120" height="90" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-			</a>
-		</div>
-		<div>
-			A tabela a seguir é um resumo de todos os sites da web que já criei.
-			<div class= "menu">
-				<table>
-					<tr align= "center">
-						<td>
-							<a href= "chaves_git.html" class= "menu">
-								Tutorial - como criar sua chave de acesso ao GitHub
-							</a>
-						</td>
-						<td>
-							<a href= "diario_escolar.html" class= "menu">
-								Diário escolar - Blog da Bru
-							</a>
-						</td>
-						<td>
-							<a href= "diario_gratidao.html" class= "menu">
-								Meu diário de gratidão
-							</a>
-						</td>
-						<td>
-						 	<a href= "index.html" class= "menu">
-						 		Blog da Bru - Posando e viajando [página inicial]
-						 	</a>
-						</td>
-						<td>
-							<a href= "projeto_nelson.html" class= "menu">
-								Insert title here [teste de JavaScript]
-							</a>
-						</td>
-						<td>
-							<a href= "tabelas.html" class= "menu">
-								Insert title here [teste tables]
-							</a>
-						</td>
-					</tr>
-				</table>
-			</div>
-		</div>
-		<div class= "texto_comum">
-			Olá, mundo!
-		</div>
-		<div class= "texto_comum">	
-			<p>
-				Meu nome é Bruna e tenho 11 anos. Estudo no 6º ano do Fund. 2 e
-				faço aniversário em setembro. 
-		
-			</p>
-		</div>
-		<div class= "subtitulo"> 
-			<h2>
-				<em> 
-					<u>
-						Fotos
-					</u>	
-				</em> 
-			</h2>
-		</div>
-		<div class= "texto_comum">
-			<p>
-				Uma das coisas que eu mais gosto neste mundo é viajar. EU ADORO 
-				VIAJAR!!!
-			</p>
-			<p align= "justify">
-				Outra coisa que é muito gratificante (em minha opinião) é tirar 
-				fotos de mometos felizes, que eu gostaria de lembrar. <b>Curiosidade:</b>
-				Pode parecer impressionante, mas eu tenho mais fotos de pessoas 
-				e coisas ao meu redor do que de mim mesma.
-			</p>
-		</div>
-		<div align= "center">	
-			<img src= "img/Imagem1_400x267.jpeg">
-			<br>
-		</div>	
-		<div class= legenda>
-			Foto de 2019 - Teatro Nacional Cláudio Santoro - Brasília - DF
-		</div> 
-		<br>
-		<div align= center>
-			<img src= "img/Imagem2_400x461.jpeg">
-		<br>	
-		</div>	
-		<div class= legenda>
-			Foto de 2011 - Bonito - MS
-		</div> <br>
-		<div class= "texto_comum">
-			Quer saber um pouco mais sobre mim? A partir de agora, você tem acesso a estes conhecimentos. Vamos lá?
-		</div>
-		<div class= estilo_ul>
-			<ul>
-				<li>
-					Escola - apresentação
-					<div class= "texto_comum">
-						<p>
-						Estudo no 6º ano do Ensino Fundamental 2. Minha matéria
-						e professor preferidos são de Matemática. O nome do professor
-						de Matemática é Pierre, mas nós, alunos, só conhecemos
-						ele por "jovem", porque ele só nos chama assim. Acho que
-						a frase que ele mais usa é "Que deselegância, jovem!", o
-						que pode te dar uma pista do grau de santidade de nossa
-						classe.
-						</p>
-						<p>
-						A gente brinca com isso, mas ele é de verdade, muito gente
-						boa. As aulas dele são muito engraçadas. Mas não é isso
-						que faz ele ser o melhor professor (apesar de realmente
-						ter um peso). Ele explica muito bem e (estou falando sério!),
-						ele nunca brigou com a gente. Repito: NUNCA!
-						</p>
-						<p>
-						Agora falando de uma parte mais pessoal: eu sempre fui a
-						preferidinha dos professores. Ou, pelo menos, sempre fui
-						chamada assim. Não me importo muito, mas fico realmente
-						chateada quando meus colegas acham que sou mimada por tirar
-						notas boas. Nunca fui muito social (umas duas ou três 
-						pessoas realmente têm acesso a mim), ainda mais agora, mas
-						isso ainda assim me deixa complexada: ora, se é assim,
-						vão estudar mais! Eu só estou fazendo a minha parte. 
-						</p>
-						<p>
-						Meus familiares acham que eu devia interagir com as pessoas,
-						mas esse é o meu modo de seu eu. Não me importo de ficar
-						sozinha e me entendo comigo mesma. Algumas vezes, a Ana
-						Paula (orientadora pedagógica) já me viu sozinha, muitas
-						vezes lendo, e vem me chama para perguntas o que está
-						acontecendo. Na maioria das vezes, falo que estou normal:
-						sozinha, mas não solitátia. Me sinto bem assim e gosto
-						de ficar na minha. Quando (raramente) colegas me chamam 
-						para conversar, tendo a me sentir retraída, no começo.
-						Se meu caro navegante me conhecer, estudando junto a mim
-						ou mesmo de vista, espero que 
-						</p>
-					</div>
-				</li>
-			</ul>
-		</div>
-		<div>
-			Criei um tutorial com o intuito de me ajudar a criar chaves SSH para
-			 atualizar meus projetos no GitHub. Se interessou? Dê uma olhada 
-			 <a href= "chaves_git.html">aqui</a>.
-			<br>
-			Além disso, criei um Diário Escolar na Internet. Quer acessar? Clica <a href= "diario_escolar.html"> aqui</a>!
-		</div>
-		<div>
-			<a href= "diario_escolar.html">
-				<img src= "img/calendario1_25x25.png"> Calendário
-			</a>
-		</div>
-	</body>
-	<footer>
-	
-	</footer>
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+        
+      </body>
 </html>
