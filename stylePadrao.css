@@ -21,6 +21,7 @@ header {
   width: 300;
   height: 300;
   display: inline-block;
+  margin: 100px;
 }
 
 header a {
