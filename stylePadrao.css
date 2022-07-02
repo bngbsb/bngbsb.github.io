@@ -13,14 +13,17 @@ header {
   margin: 0 auto;
   width: 100%;
   hight: 336px;
-  
+}
+
+#logo/nav_header {
+  width: 50%;
+  margin: auto;
 }
 
 #logoHeader {
   width: 300;
   height: 300;
   display: inline-block;
-  width: 50%
 }
 
 main {
