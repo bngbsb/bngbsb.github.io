@@ -13,8 +13,8 @@ body {
 header {
   display: inline-block;
   padding: 10px 5px;
-  margin: 0 auto;
-  hight: 336px;
+  margin: auto;
+  width: 80%;
 }
 
 #logoHeader {
@@ -27,7 +27,7 @@ header a {
  position: absolute;
  top: 150px;
  right: 0px;
- font-size: 300%;
+ font-size: 250%;
 }
 
 main {
