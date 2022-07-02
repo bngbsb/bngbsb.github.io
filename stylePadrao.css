@@ -11,7 +11,7 @@ header {
   background-color: D5E1EC;
   padding: 10px 5px;
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
   hight: 336px;
   
 }
@@ -20,12 +20,14 @@ header {
   width: 300;
   height: 300;
   display: inline-block;
+  width: 50%
 }
 
 main {
   position: absolute;
   right: 0px;
   top: 150px;
+  width: 50%;
 }
 
 .icon-bar {
