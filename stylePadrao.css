@@ -5,12 +5,12 @@ body {
   font-family: 'Gochi Hand', cursive;
 }
 
-header, main {
+header {
   display: inline-block;
   background-color: D5E1EC;
   padding: 10px 5px;
-  margin: 5px;
-  width: 50%;
+  margin: auto;
+  width: 80%;
   hight: 336px;
 }
 
