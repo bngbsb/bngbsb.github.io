@@ -21,12 +21,12 @@ header {
   width: 300;
   height: 300;
   display: inline-block;
-  margin: 100px;
+  margin: 50px;
 }
 
 header a {
  position: absolute;
- top: 150px;
+ top: 200px;
  right: 0px;
  font-size: 200%;
  padding: 10px 50px 10px 10px;
