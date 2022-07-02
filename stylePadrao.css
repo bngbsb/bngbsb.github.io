@@ -82,6 +82,12 @@ header a {
   }
 }
 
+.menuInicial {
+  position: absolute;
+  right: 100px;
+  top: 200px;
+}
+
 main {
   font-size: 150%
 }
