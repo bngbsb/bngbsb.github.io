@@ -6,18 +6,26 @@ body {
 }
 
 header {
+  position: relative;
   display: inline-block;
   background-color: D5E1EC;
   padding: 10px 5px;
-  margin: auto;
+  margin: 0 auto;
   width: 80%;
   hight: 336px;
+  
 }
 
 #logoHeader {
   width: 300;
   height: 300;
   display: inline-block;
+}
+
+main {
+  position: absolute;
+  right: 0px;
+  top: 150px;
 }
 
 .icon-bar {
