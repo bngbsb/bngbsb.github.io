@@ -22,6 +22,8 @@ header {
   height: 300;
   display: inline-block;
   margin: 50px;
+  position: absolute;
+  left: 300px;
 }
 
 header a {
@@ -84,9 +86,9 @@ header a {
 
 .menuInicial {
   position: absolute;
-  right: 100px;
+  right: 300px;
   top: 210px;
-  font-size: 300%;
+  font-size: 600%;
 }
 
 main {
