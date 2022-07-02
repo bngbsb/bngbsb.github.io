@@ -4,13 +4,16 @@ body {
   background-image: linear-gradient(240deg, white, #F4FF97, #D4FF97, #9AFF97, #97FFBD, #97FFD4);
   font-family: 'Gochi Hand', cursive;
 }
+.header/main {
+  width: 80%;
+  background-color: D5E1EC;
+  margin: auto;
+}
 
 header {
   display: inline-block;
-  background-color: D5E1EC;
   padding: 10px 5px;
   margin: 0 auto;
-  width: 80%;
   hight: 336px;
 }
 
