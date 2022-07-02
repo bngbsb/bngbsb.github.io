@@ -6,19 +6,21 @@ body {
 }
 
 header {
-  position: relative;
   display: inline-block;
   background-color: D5E1EC;
   padding: 10px 5px;
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
   hight: 336px;
 }
 
 #logo/nav_header {
+  position: relative;
   width: 50%;
   margin: auto;
 }
+
+#logo/nav_header 
 
 #logoHeader {
   width: 300;
