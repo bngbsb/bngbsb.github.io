@@ -16,11 +16,9 @@ header {
 
 #logo/nav_header {
   position: relative;
-  width: 50%;
+  width: 40%;
   margin: auto;
 }
-
-#logo/nav_header 
 
 #logoHeader {
   width: 300;
@@ -31,8 +29,8 @@ header {
 main {
   position: absolute;
   right: 0px;
-  top: 150px;
-  width: 50%;
+  top: 50%;
+  width: 40%;
 }
 
 .icon-bar {
