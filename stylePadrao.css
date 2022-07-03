@@ -27,6 +27,7 @@ header {
   margin: 50px;
   position: absolute;
   left: 300px;
+  top: 0px;
 }
 
 .overlay {
