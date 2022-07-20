@@ -5,19 +5,11 @@ body {
   font-family: 'Gochi Hand', cursive;
 }
 .header_main {
-  hight: 900px;
+  hight: 1300px;
   width: 100%;
   background-color: D5E1EC;
   margin: auto;
-}
-
-header {
-  display: inline-block;
-  padding: 10px 5px;
-  margin: auto;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
+  font-family: 'Dancing Script', cursive;
 }
 
 #logoHeader {
@@ -164,8 +156,7 @@ ul {
 }
 
 .obs {
-    padding-left: 100px;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Dancing Script', cursive;
     text-align: justify;
     text-indent: 100px;
     padding: 0px 20px 0px 10px;
