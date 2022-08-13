@@ -56,6 +56,12 @@ main {
   -ms-transform: translate(-50%,-50%);
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 .imgCentro {
   display: block;
   margin-left: auto;
