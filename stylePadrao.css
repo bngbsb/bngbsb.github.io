@@ -21,6 +21,11 @@ body {
   float: left;
 }
 
+#textoMain_index {
+  float: right;
+  
+}
+
 .overlay {
   height: 100%;
   width: 0;
