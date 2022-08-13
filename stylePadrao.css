@@ -16,9 +16,9 @@ body {
   margin: auto;
   width: 300;
   height: 300;
-  display: inline-block;
   left: 300px;
   top: 0px;
+  float: left;
 }
 
 .overlay {
