@@ -10,7 +10,6 @@ body {
   background-color: D5E1EC;
   margin: auto;
   font-family: 'Dancing Script', cursive;
-  margin: 1em 5em;
 }
 
 #logoHeader {
@@ -20,6 +19,10 @@ body {
   left: 300px;
   top: 0px;
   float: left;
+}
+
+main {
+ margin: 1em 5em; 
 }
 
 #textoMain_index {
