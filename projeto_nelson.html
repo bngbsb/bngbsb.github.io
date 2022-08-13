@@ -1,34 +1,92 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<meta charset="UTF-8">
-			<title>Insert title here</title>
-		</head>
-		<body>
-			<div>
-				Existe um teste que nos diz o quanto você é hiperalerta, socialmente 
-				ansioso, narcisista, perfeccionista, bipolar, mágico, aventureiro ou 
-				dramático. Nele, numa escala de 1 a 10, você 
-			</div>
-			<br>
-			<button onclick="hiperalerta()">
-				Hiperalerta
-			</button>
-		</body>
-		<script>
-			function hiperalerta() {
-				var pergunta1 = prompt("1. Sou uma pessoa procupada?");
-				var pergunta2 = prompt("2. Sou agitado?");
-				var pergunta3 = prompt("3. Canso-me depressa com atividades, mesmo quando começo me sentindo bem?");
-				var pergunta4 = prompt("4. SOu atento, quase sobressaltado?");
-				var pergunta5 = prompt("5. Fico nervoso se um problema não se resolve logo?");
-				var pergunta6 = prompt("6. Tenho dificuldade para relaxar e dormir?");
-				var pergunta7 = prompt("7. Sou estressado?");
-				var pergunta8 = prompt("8. Tenho dificuldade em me concentrar até em tarefas simples?");
-				var pergunta9 = prompt("9. Todos dizem que analiso tudo demais?");
-				var pergunta10 = prompt("10. Acredito que tenho mais problemas que os outros?");
-				var pergunta11 = prompt("11. Espero o pior e planejo com base nisso?");
-				var pergunta12 = prompt("12. Penso em tudo que pode dar errado?");
-			}
-		</script>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>Existe um teste que nos diz o quanto você é hiperalerta,
+		socialmente ansioso, narcisista, perfeccionista, bipolar, mágico,
+		aventureiro ou dramático.</div>
+	<br>
+	<button onclick="hiperalerta()">Hiperalerta</button>
+	<button onclick="resultadoHiperalerta()">balkdjkgsjfdh</button>
+</body>
+<script>
+	
+	function hiperalerta() {
+
+		var pergunta1 = prompt("1. Sou uma pessoa preocupada?");
+		while(isNaN(pergunta1)){
+			alert("Você não informou um número!");
+			pergunta1 = prompt("1. Sou uma pessoa preocupada?");
+		}
+		var pergunta2 = prompt("2. Sou agitado?");
+		while(isNaN(pergunta2)){
+			alert("Você não informou um número!");
+			pergunta2 = prompt("2. Sou agitado?");
+		}
+		var pergunta3 = prompt("3. Canso-me depressa com atividades, mesmo quando começo me sentindo bem?");
+		while(isNaN(pergunta3)){
+			alert("Você não informou um número!");
+			pergunta3 = prompt("3. Canso-me depressa com atividades, mesmo quando começo me sentindo bem?");
+		}	
+		var pergunta4 = prompt("4. Sou atento, quase sobressaltado?");
+		while(isNaN(pergunta4)){
+			alert("Você não informou um número!");
+			pergunta4 = prompt("4. Sou atento, quase sobressaltado?");
+		}
+		var pergunta5 = prompt("5. Fico nervoso se um problema não se resolve logo?");
+		while(isNaN(pergunta5)){
+			alert("Você não informou um número!");
+			pergunta5 = prompt("5. Fico nervoso se um problema não se resolve logo?");
+		}
+		var pergunta6 = prompt("6. Tenho dificuldade para relaxar e dormir?");
+		while(isNaN(pergunta6)){
+			alert("Você não informou um número!");
+			pergunta6 = prompt("6. Tenho dificuldade para relaxar e dormir?");
+		}
+		var pergunta7 = prompt("7. Sou estressado?");
+		while(isNaN(pergunta7)){
+			alert("Você não informou um número!");
+			pergunta7 = prompt("7. Sou estressado?");
+		}
+		var pergunta8 = prompt("8. Tenho dificuldade em me concentrar até em tarefas simples?");
+		while(isNaN(pergunta8)){
+			alert("Você não informou um número!");
+			pergunta8 = prompt("8. Tenho dificuldade em me concentrar até em tarefas simples?");
+		}
+		var pergunta9 = prompt("9. Todos dizem que analiso tudo demais?");
+		while(isNaN(pergunta9)){
+			alert("Você não informou um número!");
+			pergunta9 = prompt("9. Todos dizem que analiso tudo demais?");
+		}
+		var pergunta10 = prompt("10. Acredito que tenho mais problemas que os outros?");
+		while(isNaN(pergunta10)){
+			alert("Você não informou um número!");
+			pergunta10 = prompt("10. Acredito que tenho mais problemas que os outros?");
+		}
+		var pergunta11 = prompt("11. Espero o pior e planejo com base nisso?");
+		while(isNaN(pergunta11)){
+			alert("Você não informou um número!");
+			pergunta11 = prompt("11. Espero o pior e planejo com base nisso?");
+		}
+		var pergunta12 = prompt("12. Penso em tudo que pode dar errado?");
+		while(isNaN(pergunta12)){
+			alert("Você não informou um número!");
+			pergunta12 = prompt("12. Penso em tudo que pode dar errado?");
+		}
+		var soma_resultado = pergunta1 + pergunta2 + pergunta3 + pergunta4
+				+ pergunta5 + pergunta6 + pergunta7 + pergunta8 + pergunta9
+				+ pergunta10 + pergunta11 + pergunta12;
+		var resultado = soma_resultado / 10;
+		alert("Você tem o grau " + resultado);
+	}
+		/*function eNumero (){
+			var resultado = prompt("Informe um número:");
+			alert (resultado);
+			alert (isNaN(resultado));
+		}*/
+	eNumero();
+</script>
 </html>
