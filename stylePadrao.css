@@ -5,11 +5,12 @@ body {
   font-family: 'Gochi Hand', cursive;
 }
 .header_main {
-  height: 3000px;
+  height: 500px;
   width: 100%;
   background-color: D5E1EC;
   margin: auto;
   font-family: 'Dancing Script', cursive;
+  padding: 1em 5em;
 }
 
 #logoHeader {
