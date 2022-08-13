@@ -22,11 +22,11 @@
         </title>
         
         <script>
-            function on() {
+            function navOn() {
               document.getElementById("nav_index").style.display = "block";
             }
             
-            function off() {
+            function navOff() {
               document.getElementById("nav_index").style.display = "none";
             }
         </script>
@@ -53,17 +53,25 @@
                  </p>
                  </h2>
              </main>
-            <div id="nav_index">
-                <a href="">Diário escolar</a> <br>
-                <a> Fotos </a>
-            </div>
-            <div class="overlay-content">
-               <a href="https://bngbsb.github.io/">Home</a>
-               <a href="#">Services</a>
-               <a href="#">Clients</a>
-               <a href="#">Contact</a>
-            </div>
-             <span style="font-size:200%;cursor:pointer" onclick="openNav()" class="menuInicial">&#9776; Menu</span>
+            
+            
+            
+            
+            
+            
+
+  <button onclick="navOn()">Menu</button>
+
+<div id="nav_index" onclick="navOff()">
+  <div id="text">oi</div>
+</div>
+
+                
+                
+                
+                
+                
+                
          </div>
        </div>          
         <div class="topBorder">
