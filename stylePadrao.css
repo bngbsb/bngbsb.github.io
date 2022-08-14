@@ -35,10 +35,10 @@ main {
 }
 
 #navButton_index {
-  width: 95%;
+  width: 100%;
   background-color: #323D47;
   color: #E5EFF8;
-  border-radius: 0 50px;
+  border-radius: 0 0 50px 50px;
   text-align: center;
   margin: auto;
   font-size: 2em;
