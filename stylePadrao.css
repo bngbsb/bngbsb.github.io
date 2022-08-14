@@ -42,7 +42,7 @@ main {
   text-align: center;
   margin: auto;
   font-size: 2em;
-  font-family: 'Caveat', cursive;
+  font-family: 'Boogaloo', cursive;
   text-transform: uppercase;
 }
 
@@ -58,6 +58,7 @@ main {
   background-color: rgba(0,0,0,0.8);
   z-index: 2;
   cursor: pointer;
+  font-family: 'Caveat', cursive;
 }
 
 #txtNav_index {
