@@ -5,7 +5,7 @@ body {
   font-family: 'Gochi Hand', cursive;
 }
 .header_main_nav {
-  padding: 5em 0;
+  padding: 2em 0;
   width: 100%;
   background-color: D5E1EC;
   font-family: 'Dancing Script', cursive;
@@ -25,6 +25,7 @@ main {
 #textoMain_index {
   display: inline-block;
   width: 15em;
+  align: right;
   
 }
 
