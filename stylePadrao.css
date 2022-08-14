@@ -69,12 +69,15 @@ main {
   color: white;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
+  text-align: center;
 }
 
 #obsTxtNav_index {
-  font-size:  75%;
+  width: 50%;
+  font-size:  25%;
   text-align: center;
   align: center;
+  position: absolute;
   top: 80%;
 }
 
