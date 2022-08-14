@@ -29,6 +29,7 @@ main {
 #textoMain_index {
   display: inline-block;
   width: 20em;
+  top: 50%
   
 }
 
