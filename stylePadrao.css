@@ -5,7 +5,7 @@ body {
   font-family: 'Gochi Hand', cursive;
 }
 .header_main_nav {
-  height: 500px;
+  height: 70em;
   width: 100%;
   background-color: D5E1EC;
   margin: auto;
@@ -14,10 +14,7 @@ body {
 
 #logoHeader {
   margin: auto;
-  width: 300;
-  height: 300;
-  left: 300px;
-  top: 0px;
+  width: 20em;
   float: left;
 }
 
