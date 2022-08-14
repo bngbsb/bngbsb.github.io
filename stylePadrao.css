@@ -5,16 +5,15 @@ body {
   font-family: 'Gochi Hand', cursive;
 }
 .header_main_nav {
-  height: 70em;
   width: 100%;
   background-color: D5E1EC;
-  margin: auto;
+  margin: 20%;
   font-family: 'Dancing Script', cursive;
 }
 
 #logoHeader {
   margin: auto;
-  width: 20em;
+  width: 15em;
   float: left;
 }
 
