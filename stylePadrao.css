@@ -5,9 +5,9 @@ body {
   font-family: 'Gochi Hand', cursive;
 }
 .header_main_nav {
+  padding: 5em;
   width: 100%;
   background-color: D5E1EC;
-  margin: 20%;
   font-family: 'Dancing Script', cursive;
 }
 
