@@ -23,8 +23,8 @@ main {
 }
 
 #textoMain_index {
-  float: right;
-  width: 50%;
+  display: inline-block;
+  width: 15em;
   
 }
 
