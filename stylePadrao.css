@@ -15,11 +15,12 @@ body {
 #logoHeader {
   width: 15em;
   float: left;
+  padding: 1em;
 }
 
 main {
- margin: 1em 5em; 
- font-size: 150%
+ font-size: 150%;
+ margin: auto;
 }
 
 #textoMain_index {
