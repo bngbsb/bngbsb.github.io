@@ -73,12 +73,10 @@ main {
 }
 
 #obsTxtNav_index {
-  width: 50%;
-  font-size:  25%;
+  width: 100%;
+  font-size:  50%;
   text-align: center;
   align: center;
-  position: absolute;
-  top: 80%;
 }
 
 .sticky {
