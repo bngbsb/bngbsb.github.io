@@ -21,6 +21,7 @@ main {
  font-size: 150%;
  margin: auto;
  align: center;
+ width: 32em;
 }
 
 #textoMain_index {
