@@ -43,6 +43,7 @@ main {
   margin: auto;
   font-size: 2em;
   font-family: 'Caveat', cursive;
+  text-transform: uppercase;
 }
 
 #nav_index {
