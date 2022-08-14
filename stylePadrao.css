@@ -7,8 +7,7 @@ body {
 .header_main_nav {
   background-color: rgba(213,225,236,0.4);
   font-family: 'Dancing Script', cursive;
-  margin: auto;
-  align: center;
+  margin: 7em 0;
   border-radius: 50px;
 }
 
