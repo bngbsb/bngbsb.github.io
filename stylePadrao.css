@@ -31,8 +31,17 @@ main {
 #textoMain_index {
   display: inline-block;
   width: 20em;
-  top: 50%
-  
+  top: 50%;
+}
+
+#navButton_index {
+  width: 95%;
+  background-color: #323D47;
+  color: #E5EFF8;
+  border-radius: 0 50px;
+  text-align: center;
+  margin: auto;
+  font-size: 2em;
 }
 
 #nav_index {
