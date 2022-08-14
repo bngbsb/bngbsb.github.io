@@ -9,6 +9,8 @@ body {
   font-family: 'Dancing Script', cursive;
   margin: 3em 0;
   border-radius: 50px;
+  width: 95%;
+  right: 50%;
 }
 
 #logoHeader {
