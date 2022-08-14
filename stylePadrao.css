@@ -71,6 +71,13 @@ main {
   -ms-transform: translate(-50%,-50%);
 }
 
+#obsTxtNav_index {
+  font-size:  75%;
+  text-align: center;
+  align: center;
+  top: 80%;
+}
+
 .sticky {
   position: -webkit-sticky;
   position: sticky;
