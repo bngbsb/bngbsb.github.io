@@ -13,13 +13,6 @@ body {
   right: 50%;
 }
 
-#logoHeader {
-  width: 15em;
-  float: left;
-  padding: 1em;
-  top: 50%
-}
-
 main {
  font-size: 150%;
  margin: auto;
@@ -28,10 +21,19 @@ main {
  padding: 2em;
 }
 
+#logoHeader {
+  width: 15em;
+  float: left;
+  top: 50%;
+  left: 40%;
+}
+
+
 #textoMain_index {
   display: inline-block;
   width: 20em;
   top: 50%;
+  right: 40%
 }
 
 #navButton_index {
