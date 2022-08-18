@@ -10,7 +10,7 @@ body {
   margin: 3em auto;
   border-radius: 50px;
   width: 95%;
-  right: 50%;
+  right: auto;
   border: solid #323D47 2px;
 }
 
@@ -18,22 +18,22 @@ main {
  font-size: 150%;
  margin: auto;
  align: center;
- width: 60%;
+ width: 40em;
 }
 
 #logoHeader {
-  width: 15em;
+  width: 16em;
   float: left;
   top: 50%;
   left: 0;
+  padding: 4em;
 }
 
 
 #textoMain_index {
   display: inline-block;
   width: 20em;
-  top: 50%;
-  right: 40%;
+  margin: 0 ;
 }
 
 #navButton_index {
