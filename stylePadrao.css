@@ -11,6 +11,7 @@ body {
   border-radius: 50px;
   width: 95%;
   right: 50%;
+  border: solid #323D47 10px;
 }
 
 main {
@@ -19,7 +20,6 @@ main {
  align: center;
  width: 37em;
  padding: 2em;
- border: solid #323D47 10px;
 }
 
 #logoHeader {
