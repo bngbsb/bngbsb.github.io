@@ -11,7 +11,7 @@ body {
   border-radius: 50px;
   width: 95%;
   right: 50%;
-  border: solid #323D47 10px;
+  border: solid #323D47 4px;
 }
 
 main {
@@ -47,6 +47,7 @@ main {
   font-size: 2em;
   font-family: 'Boogaloo', cursive;
   text-transform: uppercase;
+  border: solid #323D47 2px;
 }
 
 #nav_index {
