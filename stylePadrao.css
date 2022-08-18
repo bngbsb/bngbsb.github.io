@@ -19,6 +19,7 @@ main {
  align: center;
  width: 37em;
  padding: 2em;
+ border: solid #323D47 10px;
 }
 
 #logoHeader {
@@ -33,7 +34,7 @@ main {
   display: inline-block;
   width: 20em;
   top: 50%;
-  right: 40%
+  right: 40%;
 }
 
 #navButton_index {
