@@ -11,15 +11,14 @@ body {
   border-radius: 50px;
   width: 95%;
   right: 50%;
-  border: solid #323D47 4px;
+  border: solid #323D47 2px;
 }
 
 main {
  font-size: 150%;
  margin: auto;
  align: center;
- width: 37em;
- padding: 2em;
+ width: 60%;
 }
 
 #logoHeader {
@@ -108,42 +107,42 @@ p {
 }
 
 .pCentro {
-    text-align: center;   
+  text-align: center;   
 }
 
 .topBorder {
-    border-top: 3px solid #3A710E;   
+  border-top: 3px solid #3A710E;   
 }
 
 .p_mes {
-    text-align: center;
-    font-family: "Papyrus", "Georgia", "Brush Script MT", "Lucida Handwriting", fantasy, sans-serif;
-    font-size: 80px;
-    border-top: 3px dotted #325408;
-    border-right: none;
-    border-bottom: 3px dotted #325408;
-    border-left: none;
+  text-align: center;
+  font-family: "Papyrus", "Georgia", "Brush Script MT", "Lucida Handwriting", fantasy, sans-serif;
+  font-size: 80px;
+  border-top: 3px dotted #325408;
+  border-right: none;
+  border-bottom: 3px dotted #325408;
+  border-left: none;
 }
 
 ul {
-    list-style-type: circle;
-    font-family: "Papyrus", "Georgia", "Brush Script MT", "Lucida Handwriting", fantasy, sans-serif;
-    text-align: justify;
-    border-color: #325408;
+  list-style-type: circle;
+  font-family: "Papyrus", "Georgia", "Brush Script MT", "Lucida Handwriting", fantasy, sans-serif;
+  text-align: justify;
+  border-color: #325408;
 }
 
 .obs {
-    font-family: 'Dancing Script', cursive;
-    text-align: justify;
-    text-indent: 100px;
-    padding: 0px 20px 0px 10px;
+  font-family: 'Dancing Script', cursive;
+  text-align: justify;
+  text-indent: 100px;
+  padding: 0px 20px 0px 10px;
 }
 
 .dia {
-    border-top: dashed;
-    border-right: none;
-    border-bottom: none;
-    border-left: none;
-    font-size: 40px;
+  border-top: dashed;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  font-size: 40px;
 }
 
