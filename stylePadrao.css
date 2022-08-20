@@ -36,6 +36,7 @@ main {
   width: 40%;
   float: right;
   top: 50%;
+  -ms-transform: translate(-50%, -50%);
 }
 
 #navButton_index {
