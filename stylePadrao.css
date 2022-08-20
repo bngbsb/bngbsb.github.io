@@ -34,8 +34,9 @@ main {
 #textoMain_index {
   width: 40%;
   float: right;
-  display: flex;
-  align-items: center;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #navButton_index {
