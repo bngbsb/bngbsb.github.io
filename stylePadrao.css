@@ -25,9 +25,7 @@ main {
 
 #logoHeader {
   width: 40%;
-  float: left;
   top: 50%;
-  left: 0px;
 }
 
 
@@ -35,6 +33,9 @@ main {
   diplay: inline;
   width: 40%;
   float: right;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 #navButton_index {
