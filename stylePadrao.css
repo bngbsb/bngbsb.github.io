@@ -35,6 +35,7 @@ main {
   diplay: inline;
   width: 40%;
   float: right;
+  top: 50%;
 }
 
 #navButton_index {
