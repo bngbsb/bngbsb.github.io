@@ -30,7 +30,7 @@ main {
 
 
 #textoMain_index {
-  diplay: inline-block;
+  diplay: inline;
   width: 40%;
   right: 0px;
 }
