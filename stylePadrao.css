@@ -21,6 +21,9 @@ main {
  width: 80%;
  height: 40em;
  padding: 2% 0;
+ content: "";
+ clear: both;
+ display: table;
 }
 
 #logoHeader {
@@ -33,9 +36,6 @@ main {
   diplay: inline;
   width: 40%;
   float: right;
-  content: "";
-  clear: both;
-  display: table;
 }
 
 #navButton_index {
