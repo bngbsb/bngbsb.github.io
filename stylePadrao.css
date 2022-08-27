@@ -29,8 +29,7 @@ main {
 }
 
 #logoHeader {
-  width: 400px;
-  height: 400px;
+  height: 75%;
   top: 50%;
   left: 50%;
   transform: translateY(-25%);
