@@ -15,18 +15,17 @@ body {
 }
 
 main {
- font-size: 200%;
+ font-size: 150%;
  margin: auto;
  align: center;
  width: 80%;
- padding: 1% 0;
+ padding: 2% 0;
  content: "";
  clear: both;
  display: flex;
 }
 
 #divImgMain_index {
-  top: 50%;
 }
 
 #logoHeader {
