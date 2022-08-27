@@ -27,15 +27,12 @@ main {
 
 #logoHeader {
   top: 50%;
-  width: 40%;
 }
 
 
 #textoMain_index {
   line-height: 1.5;
-  width: 40%;
-  align: right;
-  border-style: solid;
+  padding-left: 50px;
 }
 
 #navButton_index {
