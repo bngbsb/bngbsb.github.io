@@ -43,6 +43,7 @@ main {
 #textoMain_index {
   line-height: 1.5;
   padding-left: 50px;
+  width: 50%;
 }
 
 #navButton_index {
