@@ -30,10 +30,10 @@ main {
 }
 
 #logoHeader {
-  height: 75%;
+  height: 90%;
   top: 50%;
   left: 50%;
-  transform: translateY(12.5%);
+  transform: translateY(5%);
 }
 
 
