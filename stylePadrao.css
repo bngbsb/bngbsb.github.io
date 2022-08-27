@@ -52,7 +52,7 @@ main {
   border-radius: 0 0 50px 50px;
   text-align: center;
   transform: translateX(2.5%);
-  margin: auto;
+  margin: 0 0 2em 0;
   font-size: 2em;
   font-family: 'Boogaloo', cursive;
   text-transform: uppercase;
