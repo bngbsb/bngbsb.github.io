@@ -28,6 +28,8 @@ main {
 
 #divImgMain_index {
   width: 50%;
+  height: 20em;
+  margin: auto;
 }
 
 #logoHeader {
