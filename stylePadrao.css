@@ -8,11 +8,11 @@ body {
   background-color: rgba(213,225,236,0.4);
   font-family: 'Dancing Script', cursive;
   margin: 2em auto 0 auto;
-  border-radius: 50px;
+  border-radius: 50px 0;
   width: 95%;
   right: auto;
   border: solid #323D47 2px;
-  height: 35em;
+  height: 33.5em;
 }
 
 main {
@@ -48,11 +48,11 @@ main {
 
 #navButton_index {
   width: 95%;
-  height: 1.5em;
   background-color: #323D47;
   color: #E5EFF8;
   border-radius: 0 0 50px 50px;
   text-align: center;
+  align: center;
   margin: auto;
   font-size: 2em;
   font-family: 'Boogaloo', cursive;
