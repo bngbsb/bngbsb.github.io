@@ -33,6 +33,7 @@ main {
 
 #textoMain_index {
   line-height: 1.5;
+  display: flex;
 }
 
 #navButton_index {
