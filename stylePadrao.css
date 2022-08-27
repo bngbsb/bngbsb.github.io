@@ -11,7 +11,7 @@ body {
   border-radius: 50px 50px 0 0;
   width: 95%;
   right: auto;
-  border: solid rgba(50, 61, 71, 0.7) 2px;
+  border: solid rgba(50, 61, 71) 2px;
   height: 33.5em;
 }
 
@@ -47,7 +47,7 @@ main {
 
 #navButton_index {
   width: 95%;
-  background-color: rgba(50, 61, 71, 0.7);
+  background-color: rgba(50, 61, 71);
   color: #E5EFF8;
   border-radius: 0 0 50px 50px;
   text-align: center;
