@@ -20,7 +20,7 @@ main {
  margin: auto;
  align: center;
  width: 80%;
- height: 35em;
+ height: 33.5em;
  content: "";
  clear: both;
  display: flex;
@@ -28,7 +28,6 @@ main {
 
 #divImgMain_index {
   width: 50%;
-  height: 20em;
   margin: auto;
 }
 
