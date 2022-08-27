@@ -35,7 +35,7 @@ main {
   line-height: 1.5;
   width: 40%;
   align: right;
-  border: 5;
+  border-style: solid;
 }
 
 #navButton_index {
