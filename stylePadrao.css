@@ -56,7 +56,7 @@ main {
   font-size: 2em;
   font-family: 'Boogaloo', cursive;
   text-transform: uppercase;
-  border: solid rgba(50, 61, 71) 3px;
+  border: solid white 3px;
 }
 
 #nav_index {
