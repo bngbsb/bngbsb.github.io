@@ -22,7 +22,7 @@ main {
  padding: 2% 0;
  content: "";
  clear: both;
- display: table;
+ display: flex;
 }
 
 #logoHeader {
@@ -33,7 +33,6 @@ main {
 
 #textoMain_index {
   line-height: 1.5;
-  display: flex;
 }
 
 #navButton_index {
