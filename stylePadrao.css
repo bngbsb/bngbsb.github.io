@@ -26,13 +26,15 @@ main {
 }
 
 #logoHeader {
-  width: 40%;
   top: 50%;
+  width: 40%;
 }
 
 
 #textoMain_index {
   line-height: 1.5;
+  width: 40%;
+  align: right;
 }
 
 #navButton_index {
