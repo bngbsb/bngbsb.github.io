@@ -12,11 +12,11 @@ body {
   width: 95%;
   right: auto;
   border: solid #323D47 2px;
+  height: 30em;
 }
 
 main {
  font-size: 150%;
- height: 30em;
  margin: auto;
  align: center;
  width: 80%;
