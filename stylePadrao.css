@@ -21,7 +21,7 @@ main {
  align: center;
  width: 80%;
  height: 100%;
- padding: 2% 0;
+ padding: 0 2%;
  content: "";
  clear: both;
  display: flex;
