@@ -27,8 +27,13 @@ main {
  clear: both;
 }
 
+#divImgMain {
+  height: 90%;
+  width: 50%;
+}
+
 #logoHeader {
-  height: 30%;
+  height: 100%;
   padding: 1em auto;
 }
 
