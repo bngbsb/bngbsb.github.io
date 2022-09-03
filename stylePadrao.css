@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(240deg, white, #F4FF97, #D4FF97, #9AFF97, #97FFBD, #97FFD4);
+  color: #E5EFF8;
+  background-color: #323D47;
   font-family: 'Gochi Hand', cursive;
 }
 
@@ -48,8 +49,8 @@ nav {
 #navButton_index {
   height: 2em;
   width: 100%;
-  background-color: rgba(50, 61, 71);
-  color: #E5EFF8;
+  background-color: #F4FF97;
+  color: #323D47;
   border-radius: 0 0 50px 50px;
   text-align: center;
   font-size: 2em;
