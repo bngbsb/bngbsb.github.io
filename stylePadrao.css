@@ -36,6 +36,7 @@ main {
   line-height: 1.5;
   padding-left: 50px;
   width: 50%;
+  display: block;
 }
 
 nav {
