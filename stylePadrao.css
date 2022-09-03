@@ -54,10 +54,10 @@ main {
 nav {
   display: flex;
   justify-content: center;
-  width: 95%;
 }
 
 #navButton_index {
+  width: 95%;
   background-color: rgba(50, 61, 71);
   color: #E5EFF8;
   border-radius: 0 0 50px 50px;
