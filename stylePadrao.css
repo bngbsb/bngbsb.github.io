@@ -6,6 +6,7 @@ body {
 }
 .header_main_nav {
   display: flex;
+  flex-wrap: wrap;
   align-items: space-between;
   background-color: rgba(213,225,236,0.4);
   font-family: 'Dancing Script', cursive;
@@ -47,12 +48,13 @@ main {
 }
 
 #navButton_index {
+  display: flex;
+  align-items: space-between;
   width: 95%;
   background-color: rgba(50, 61, 71);
   color: #E5EFF8;
   border-radius: 0 0 50px 50px;
   text-align: center;
-  transform: translateX(2.5%);
   margin: 0 0 2em 0;
   font-size: 2em;
   font-family: 'Boogaloo', cursive;
