@@ -55,6 +55,7 @@ nav {
   display: flex;
   justify-content: center;
   width: 95%;
+  border: solid rgba(50, 61, 71) 2px;
 }
 
 #navButton_index {
