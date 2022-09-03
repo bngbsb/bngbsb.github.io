@@ -5,10 +5,11 @@ body {
   font-family: 'Gochi Hand', cursive;
 }
 .header_main_nav {
+  display: flex;
+  align-items: space-between;
   background-color: rgba(213,225,236,0.4);
   font-family: 'Dancing Script', cursive;
   margin: 2em auto 0 auto;
-  transform: translateX(2.5%);
   border-radius: 50px 50px 0 0;
   width: 95%;
   border: solid rgba(50, 61, 71) 2px;
