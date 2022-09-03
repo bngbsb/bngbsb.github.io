@@ -5,13 +5,9 @@ body {
   font-family: 'Gochi Hand', cursive;
 }
 
-#divHeader_main_nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .header_main_nav {
+  display: grid;
+  grid-template-rows: 50% 50%;
   background-color: rgba(213,225,236,0.4);
   font-family: 'Dancing Script', cursive;
   margin: 2em 0 0 0;
@@ -32,17 +28,8 @@ main {
  display: flex;
 }
 
-#divImgMain_index {
-  height: 33.5em;
-  width: 50%;
-  margin: auto;
-}
-
 #logoHeader {
-  width: 90%;
-  top: 50%;
-  left: 50%;
-  transform: translateY(5%);
+  width: 33.5em;
 }
 
 #textoMain_index {
