@@ -55,7 +55,6 @@ nav {
   display: flex;
   justify-content: center;
   width: 95%;
-  border: solid rgba(50, 61, 71) 2px;
 }
 
 #navButton_index {
@@ -68,7 +67,7 @@ nav {
   font-size: 2em;
   font-family: 'Boogaloo', cursive;
   text-transform: uppercase;
-  border: solid rgba(50, 61, 71) 3px;
+  border: solid rgba(50, 61, 71) 5px;
 }
 
 #nav_index {
