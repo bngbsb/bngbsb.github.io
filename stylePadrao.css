@@ -7,7 +7,7 @@ body {
 .header_main_nav {
   display: flex;
   flex-wrap: wrap;
-  align-items: space-between;
+  align-items: center;
   background-color: rgba(213,225,236,0.4);
   font-family: 'Dancing Script', cursive;
   margin: 2em auto 0 auto;
@@ -49,7 +49,7 @@ main {
 
 #navButton_index {
   display: flex;
-  align-items: space-between;
+  align-items: center;
   width: 95%;
   background-color: rgba(50, 61, 71);
   color: #E5EFF8;
