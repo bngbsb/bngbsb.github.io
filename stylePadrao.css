@@ -24,11 +24,11 @@ main {
  height: 33.5em;
  content: "";
  clear: both;
- display: flex;
 }
 
 #logoHeader {
   width: 100%;
+  grid-template-columns: 50%;
 }
 
 #textoMain_index {
