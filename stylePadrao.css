@@ -58,6 +58,7 @@ nav {
   font-family: 'Boogaloo', cursive;
   text-transform: uppercase;
   border: solid rgba(50, 61, 71) 5px;
+  float: bottom;
 }
 
 #nav_index {
