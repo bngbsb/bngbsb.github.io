@@ -4,10 +4,14 @@ body {
   background-image: linear-gradient(240deg, white, #F4FF97, #D4FF97, #9AFF97, #97FFBD, #97FFD4);
   font-family: 'Gochi Hand', cursive;
 }
-.header_main_nav {
+
+#divHeader_main_nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.header_main_nav {
   background-color: rgba(213,225,236,0.4);
   font-family: 'Dancing Script', cursive;
   margin: 2em 0 0 0;
