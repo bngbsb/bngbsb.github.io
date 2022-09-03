@@ -42,8 +42,7 @@ main {
 nav {
   display: flex;
   justify-content: center;
-  width: 95%;
-  position: absolute;
+  width: 100%;
   margin: 0 auto 2em auto;
 }
 
