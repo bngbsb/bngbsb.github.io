@@ -28,7 +28,7 @@ main {
 }
 
 #logoHeader {
-  width: 100%;
+  width: 50%;
   grid-template-columns: 50%;
 }
 
