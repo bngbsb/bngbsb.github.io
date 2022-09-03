@@ -43,15 +43,16 @@ nav {
   justify-content: center;
   width: 95%;
   position: absolute;
+  margin: 0 auto 2em auto;
 }
 
 #navButton_index {
+  height: 3em;
   width: 100%;
   background-color: rgba(50, 61, 71);
   color: #E5EFF8;
   border-radius: 0 0 50px 50px;
   text-align: center;
-  margin: 0 auto 2em auto;
   font-size: 2em;
   font-family: 'Boogaloo', cursive;
   text-transform: uppercase;
