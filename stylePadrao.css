@@ -28,12 +28,14 @@ main {
 
 #logoHeader {
   padding: 1em auto;
-  align: center;
+  width: 40%;
+  margin: 0 0 0 10%;
 }
 
 #textoMain_index {
+  width: 40%;
+  margin: 0 10% 0 0;
   line-height: 1.5;
-  width: 80%;
   align: center;
   display: block;
 }
