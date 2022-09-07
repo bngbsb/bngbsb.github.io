@@ -33,6 +33,7 @@ main {
 }
 
 #textoMain_index {
+  display: inline;
   width: 40%;
   margin: 0 10% 0 0;
   line-height: 1.5;
