@@ -11,7 +11,7 @@ body {
   background-color: rgba(213,225,236,0.4);
   font-family: 'Dancing Script', cursive;
   margin: 2em auto;
-  border-radius: 50px 50px 0 0;
+  border-radius: 50px;
   width: 95%;
   border: solid rgba(50, 61, 71) 2px;
 }
@@ -27,7 +27,7 @@ main {
 }
 
 #logoHeader {
-  padding: 1em auto;
+  padding: 2em 0;
   width: 40%;
   margin: 0 0 0 10%;
 }
