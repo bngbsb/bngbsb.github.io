@@ -37,7 +37,7 @@ main {
   margin: 0 10% 0 0;
   line-height: 1.5;
   align: center;
-  display: block;
+  float: right;
 }
 
 nav {
