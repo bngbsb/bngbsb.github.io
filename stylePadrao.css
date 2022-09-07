@@ -10,7 +10,7 @@ body {
   display: grid;
   background-color: rgba(213,225,236,0.4);
   font-family: 'Dancing Script', cursive;
-  margin: 2em auto 0 auto;
+  margin: 2em auto;
   border-radius: 50px 50px 0 0;
   width: 95%;
   border: solid rgba(50, 61, 71) 2px;
@@ -42,7 +42,7 @@ nav {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 0 auto 2em auto;
+  margin: 0 auto;
 }
 
 #navButton_index {
