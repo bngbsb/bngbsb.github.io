@@ -27,6 +27,7 @@ main {
 }
 
 #logoHeader {
+  display: inline;
   padding: 2em 0;
   width: 40%;
   margin: 0 0 0 10%;
