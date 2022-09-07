@@ -30,13 +30,13 @@ main {
   display: inline;
   padding: 2em 0;
   width: 40%;
-  margin: 0 0 0 10%;
+  margin: 0 0 0 9%;
 }
 
 #textoMain_index {
   display: inline;
   width: 40%;
-  margin: 0 10% 0 0;
+  margin: 0 9% 0 0;
   line-height: 1.5;
   align: center;
   float: right;
