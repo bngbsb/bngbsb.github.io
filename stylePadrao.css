@@ -14,7 +14,6 @@ body {
   border-radius: 50px 50px 0 0;
   width: 95%;
   border: solid rgba(50, 61, 71) 2px;
-  height: 33.5em;
 }
 
 main {
@@ -27,19 +26,15 @@ main {
  clear: both;
 }
 
-#divImgMain {
-  height: 90%;
-  width: 50%;
-}
-
 #logoHeader {
   padding: 1em auto;
+  align: center;
 }
 
 #textoMain_index {
   line-height: 1.5;
+  width: 80%;
   align: center;
-  width: 50%;
   display: block;
 }
 
