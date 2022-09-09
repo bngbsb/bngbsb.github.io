@@ -71,7 +71,7 @@ ul {
   filter: brightness(50%);
 }
 
-navLogo {
+#navLogo {
  position: fixed;
   display: none;
   width: 100%;
