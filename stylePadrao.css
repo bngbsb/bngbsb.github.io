@@ -80,7 +80,7 @@ ul {
 #navButton_index {
   height: 2em;
   width: 100%;
-  background-color: #F4FF97;
+  background-color: #FFFF83;
   cursor: pointer;
   color: #323D47;
   border-radius: 0 0 50px 50px;
@@ -101,7 +101,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(255,255,131,0.8);
   z-index: 2;
   font-family: 'Caveat', cursive;
 }
@@ -111,7 +111,7 @@ ul {
   top: 50%;
   left: 50%;
   font-size: 50px;
-  color: white;
+  color: #323D47;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   text-align: center;
