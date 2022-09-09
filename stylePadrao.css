@@ -66,6 +66,10 @@ ul {
   width: 100%;
 }
 
+#logoHeader:hover {
+  filter: brightness(50%);
+}
+
 #textoMain_index {
   display: flex;
   align-items: center;
