@@ -34,6 +34,14 @@
         </title>
         
         <script>
+            function logoOn () {
+              document.getElementById("logoHeader").style.display = "block";
+            }
+              
+            function logoOff () {
+              document.getElementById("logoHeader").style.display = "none";
+            } 
+              
             function navOn() {
               document.getElementById("nav_index").style.display = "block";
             }
@@ -48,10 +56,13 @@
         <div id="divHeader_main_nav">
             <div class="header_main_nav">
                 <main>
-                  <div id="divImgMain_index">
+                  <button onclick="logoOn()" id="divImgMain_index">
                     <img src="https://docs.google.com/drawings/d/e/2PACX-1vTn25qOiuuqbdBUWLza2e52rBtDFgo5sxqHRSEDwLHOgdIuJce6Kb5beBxvgI1cnhgZc8O9C9DTX0GS/pub?w=602&amp;h=606"
                          id="logoHeader">
-                  </div>
+                  </button>
+                    <div onclick="logoOff">
+                        Imagens dos sites
+                    </div>
                   <div id="textoMain_index">
                       <h2>
                          <p> 
