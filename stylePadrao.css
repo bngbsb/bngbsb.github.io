@@ -47,7 +47,7 @@ ul {
 .header_main_nav {
   background-color: rgba(213,225,236,0.4);
   font-family: 'Dancing Script', cursive;
-  margin: 2em auto;
+  margin: 2em;
   border-radius: 50px;
   border: solid #F4FF97 2px;
 }
