@@ -150,6 +150,10 @@ ul {
   border-left: solid 20px #FFCDFA;
  }
  
+ .mirrorRotate {
+  transform: rotate(180deg) scaleX(-1);
+ }
+ 
 .sticky {
   position: -webkit-sticky;
   position: sticky;
