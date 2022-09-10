@@ -146,6 +146,8 @@ ul {
 
  .citacao {
   font-family: 'Shadows Into Light', cursive;
+  padding-left: 5%;
+  border-left: solid 20px #FFCDFA;
  }
  
 .sticky {
