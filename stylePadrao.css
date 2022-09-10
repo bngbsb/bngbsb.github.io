@@ -144,6 +144,10 @@ ul {
   align: center;
 }
 
+ .citacao {
+  font-family: 'Shadows Into Light', cursive;
+ }
+ 
 .sticky {
   position: -webkit-sticky;
   position: sticky;
