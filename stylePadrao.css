@@ -25,10 +25,11 @@ main {
 }
 
 nav {
-  display: flex;
+  display: grid;
   justify-content: center;
   width: 100%;
-  margin: 0 auto;
+  margin: auto;
+  height: 2em;
 }
 
 p {
@@ -66,8 +67,9 @@ ul {
 }
 
 #imgPrimeiroRegistro {
+  border-radius: 50px;
   border: 2px solid white;
-  margin: 0 auto;
+  margin: auto;
 }
 
 #logoHeader {
