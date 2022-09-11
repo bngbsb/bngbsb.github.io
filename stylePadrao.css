@@ -142,6 +142,12 @@ ul {
   align: center;
 }
 
+ #imgPrimeiroRegistro {
+  border: 2px solid white;
+  height: 10em;
+  margin: auto;
+ }
+ 
 p.citacao {
   font-family: 'Shadows Into Light', cursive;
   padding-left: 50em;
