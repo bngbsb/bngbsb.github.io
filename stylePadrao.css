@@ -144,9 +144,9 @@ ul {
   align: center;
 }
 
- .citacao {
+p.citacao {
   font-family: 'Shadows Into Light', cursive;
-  padding-left: 5%;
+  padding-left: 50em;
   border-left: solid 20px #FFCDFA;
  }
  
