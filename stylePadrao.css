@@ -49,6 +49,7 @@ ul {
   margin: 2em;
   border-radius: 50px;
   border: solid #F4FF97 2px;
+  overflow: hidden;
 }
 
 
