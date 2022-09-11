@@ -12,9 +12,8 @@ body {
 }
 
 main {
- display: flex;
- align-items: center;
- justify-content: space-around;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
  font-size: 150%;
  margin: auto;
  align: center;
@@ -56,12 +55,11 @@ ul {
 #divImgMain_index {
   background-color: rgba(0,0,0,0);
   border: none;
-  display: flex;
+  display: grid;
   align-items: center;
-  justify-content: space-around;
-  width: 40%;
+  width: 80%;
   height: 100%;
-  margin: 0 4.5%;
+  padding: 10%;
 }
 
 #logoHeader {
@@ -89,12 +87,11 @@ ul {
  
 
 #textoMain_index {
-  display: flex;
+  display: grid;
   align-items: center;
-  width: 40%;
-  margin: 0 4em 0 0;
+  width: 80%;
+  padding: 10%;
   line-height: 1.5;
-  align: center;
 }
 
 #navButton_index {
