@@ -1,19 +1,20 @@
 a {
- color: #FFCDFA;
+ color: #E5EFF8;
  font-family: 'Shadows Into Light', cursive;
 }
 
 body {
   margin: 0;
   padding: 0;
-  color: #E5EFF8;
+  color: #FFCDFA;
   background-color: #323D47;
   font-family: 'Gochi Hand', cursive;
 }
 
 main {
- display: grid;
- grid-template-columns: 1fr 1fr;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
  font-size: 150%;
  margin: auto;
  align: center;
@@ -49,18 +50,23 @@ ul {
   margin: 2em;
   border-radius: 50px;
   border: solid #F4FF97 2px;
-  overflow: hidden;
 }
 
 
 #divImgMain_index {
   background-color: rgba(0,0,0,0);
   border: none;
-  display: grid;
+  display: flex;
   align-items: center;
-  width: 80%;
+  justify-content: space-around;
+  width: 40%;
   height: 100%;
-  padding: 0 6% 0 14%;
+  margin: 0 4.5%;
+}
+
+#imgPrimeiroRegistro {
+  border: 2px solid white;
+  margin: 0 auto;
 }
 
 #logoHeader {
@@ -88,15 +94,14 @@ ul {
  
 
 #textoMain_index {
-  display: grid;
+  display: flex;
   align-items: center;
-  width: 80%;
-  padding: 0 14% 0 6%;
+  width: 40%;
+  margin: 0 4em 0 0;
   line-height: 1.5;
+  align: center;
 }
 
- /*
- 
 #navButton_index {
   height: 2em;
   width: 100%;
@@ -143,14 +148,7 @@ ul {
   text-align: center;
   align: center;
 }
-*/
- 
- #imgPrimeiroRegistro {
-  border: 2px solid white;
-  height: 10em;
-  margin: auto;
- }
- 
+
 p.citacao {
   font-family: 'Shadows Into Light', cursive;
   padding-left: 50em;
