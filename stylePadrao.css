@@ -4,9 +4,9 @@ a {
 }
 
 article {
- width: 70%;
+ width: 20%;
  color: #323D47;
- align: center;
+ text-align: center;
  font-weight: 600;
  font-size: 2em;
  padding: 0.2em;
