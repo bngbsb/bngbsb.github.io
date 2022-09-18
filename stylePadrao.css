@@ -24,7 +24,7 @@ body {
 }
 
 main {
- color: #E5EFF8;
+ color: #323D47;
  display: flex;
  align-items: center;
  justify-content: space-around;
@@ -62,7 +62,7 @@ ul {
   background-color: #F4FF97;
   font-family: 'Dancing Script', cursive;
   margin: 2em auto 0 auto;
- color: #323D47;
+  color: #323D47;
   border-radius: 50px;
   border: solid rgba(213,225,236,0.4) 2px;
 }
