@@ -10,7 +10,7 @@ article {
  font-weight: 300;
  font-size: 2em;
  padding: 0.2em;
- margin: 1em auto 4em auto;
+ margin: 1em auto;
  border-top: solid #F4FF97 2px;
  border-bottom: solid #F4FF97 2px;
 }
@@ -73,7 +73,7 @@ ul {
   font-family: 'Dancing Script', cursive;
   font-weight: 400;
   text-align: center;
-  margin: 1rem auto 2rem auto;
+  margin: 4em auto 1em auto;
   font-size: 4em;
   background-color: #F4FF97;
   padding: 10px;
