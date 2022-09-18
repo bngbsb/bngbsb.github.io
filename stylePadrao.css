@@ -69,13 +69,25 @@ ul {
 .mes_index {
   color: #323D47;
   border-radius: 30px;
-  width: 40%;
+  width: auto;
   font-family: 'Dancing Script', cursive;
   font-weight: 600;
   text-align: center;
   margin: 2em auto 0 auto;
   font-size: 4em;
   background-color: #F4FF97;
+}
+
+.mes_index:before {
+  content: "https://images.emojiterra.com/openmoji/v13.1/512px/1f5d3.png";
+  display: flex;
+  align-items: center;
+}
+
+.mes_index:after {
+  content: "https://images.emojiterra.com/openmoji/v13.1/512px/1f5d3.png";
+  display: flex;
+  align-items: center;
 }
 
 #divImgMain_index {
