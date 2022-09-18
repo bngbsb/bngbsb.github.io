@@ -199,20 +199,16 @@ p.citacao {
   border-top: 3px solid #3A710E;   
 }
 
-.p_mes {
+.mes_index {
+  color: #323D47;
+  border-radius: 30px;
+  width: 40%;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
   text-align: center;
-  font-family: "Papyrus", "Georgia", "Brush Script MT", "Lucida Handwriting", fantasy, sans-serif;
-  font-size: 120;
- 
- /*
- 
-  border-top: 3px dotted #325408;
-  border-right: none;
-  border-bottom: 3px dotted #325408;
-  border-left: none;
- 
- */
- 
+  margin: 2em auto 0 auto;
+  font-size: 4em;
+  background-color: #F4FF97;
 }
 
 .obs {
