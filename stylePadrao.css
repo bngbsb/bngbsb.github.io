@@ -5,13 +5,13 @@ a {
 
 article {
  width: 70%;
- color: rgba(213,225,236);
+ color: #323D47;
  align: center;
  font-weight: 600;
  font-size: 2em;
  padding: 0.2em;
  margin: 1em;
- border: white 50px solid;
+ border: solid #F4FF97 2px;
  border-radius: 30px;
  backgrund-color: #F4FF97;
 }
