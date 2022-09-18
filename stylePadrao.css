@@ -4,15 +4,15 @@ a {
 }
 
 article {
- width: 20%;
- color: #323D47;
+ width: 100%;
+ color: #F4FF97;
  text-align: center;
- font-weight: 600;
+ font-weight: 300;
  font-size: 2em;
  padding: 0.2em;
  margin: 1em auto;
- border: solid #F4FF97 2px;
- border-radius: 30px;
+ border-top: solid #F4FF97 2px;
+ border-bottom: solid #F4FF97 2px;
  background-color: #F4FF97;
 }
 
