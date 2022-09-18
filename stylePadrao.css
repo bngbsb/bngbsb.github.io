@@ -1,3 +1,9 @@
+p.citacao {
+  font-family: 'Shadows Into Light', cursive;
+  padding-left: 50em;
+  border-left: solid 20px #FFCDFA;
+ }
+
 a {
  color: #FFCDFA;
  font-family: 'Shadows Into Light', cursive;
@@ -177,12 +183,6 @@ ul {
   align: center;
 }
 
-p.citacao {
-  font-family: 'Shadows Into Light', cursive;
-  padding-left: 50em;
-  border-left: solid 20px #FFCDFA;
- }
- 
  .mirrorRotate {
   transform: rotate(180deg) scaleX(-1);
  }
