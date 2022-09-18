@@ -5,20 +5,20 @@ a {
 
 article {
  width: 100%;
- color: rgba(213,225,236,0.4);
+ color: #FFCDFA;
  text-align: center;
  font-weight: 300;
  font-size: 2em;
  padding: 0.2em;
  margin: 1em auto;
- border-top: solid rgba(213,225,236,0.4) 2px;
- border-bottom: solid rgba(213,225,236,0.4) 2px;
+ border-top: solid #FFCDFA 2px;
+ border-bottom: solid #FFCDFA 2px;
 }
 
 body {
   margin: 0;
   padding: 0;
-  color: #FFCDFA;
+  color: rgba(213,225,236,0.4);
   background-color: #323D47;
   font-family: 'Gochi Hand', cursive;
 }
@@ -76,7 +76,7 @@ ul {
   text-align: center;
   margin: 1em auto 0.5em auto;
   font-size: 4em;
-  background-color: rgba(213,225,236,0.4);
+  background-color: #FFCDFA;
   padding: 10px;
 }
 
