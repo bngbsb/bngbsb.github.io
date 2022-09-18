@@ -66,6 +66,17 @@ ul {
   border: solid #F4FF97 2px;
 }
 
+.mes_index {
+  color: #323D47;
+  border-radius: 30px;
+  width: 40%;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  text-align: center;
+  margin: 2em auto 0 auto;
+  font-size: 4em;
+  background-color: #F4FF97;
+}
 
 #divImgMain_index {
   background-color: rgba(0,0,0,0);
@@ -197,18 +208,6 @@ p.citacao {
 
 .topBorder {
   border-top: 3px solid #3A710E;   
-}
-
-.mes_index {
-  color: #323D47;
-  border-radius: 30px;
-  width: 40%;
-  font-family: 'Dancing Script', cursive;
-  font-weight: 600;
-  text-align: center;
-  margin: 2em auto 0 auto;
-  font-size: 4em;
-  background-color: #F4FF97;
 }
 
 .obs {
