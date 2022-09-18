@@ -11,6 +11,7 @@ article {
  font-size: 2em;
  padding: 0.2em;
  margin: 1em;
+ border: white 50px solid;
  border-radius: 30px;
  backgrund-color: #F4FF97;
 }
