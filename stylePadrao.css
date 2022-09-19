@@ -97,7 +97,7 @@ ul {
   margin: 0 4.5%;
 }
 
-#imgPrimeiroRegistro {
+.imgRegistro {
   border-radius: 50px;
   border: 2px solid white;
   margin: auto;
