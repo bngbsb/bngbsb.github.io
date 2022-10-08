@@ -97,8 +97,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 40%;
-  height: 100%;
+  width: 300px;
   margin: 0 4.5%;
 }
 
