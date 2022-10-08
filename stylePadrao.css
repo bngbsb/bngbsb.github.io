@@ -1,3 +1,18 @@
+/* 
+PADRÕES DAS PÁGINAS
+     CORES
+          - #F4FF97: Amarelo-claro (usado no main);
+          - #FFCDFA: Rosa-claro (usado nos articles e .mesIndex);
+          - #323D47: Cinza escuro (background-color do body);
+          - rgba(213,225,236): Cinza esbranquiçado (color padrão);
+     FONTES
+          - 'Dancing Script', cursive: usada nos .mesIndex e main;
+          - 'Gochi Hand', cursive: padrão do body;
+          - 'Shadows Into Light', cursive: links (a);
+          - 'Space Mono', monospace: citações;
+     
+*/
+
 a {
  color: #FFCDFA;
  font-family: 'Shadows Into Light', cursive;
@@ -21,6 +36,12 @@ body {
   color: rgba(213,225,236);
   background-color: #323D47;
   font-family: 'Gochi Hand', cursive;
+}
+
+
+iframe {
+ margin: auto;
+ border-left: 2em ;
 }
 
 img {
@@ -67,6 +88,7 @@ ul {
   margin: 3em;
   padding-left: 2em;
   border-left: solid 20px #FFCDFA;
+  font-family: 'Space Mono', monospace;
  }
 
 .header_main_nav {
