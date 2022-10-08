@@ -1,20 +1,35 @@
+/* 
+PADRÃO DA PÁGINA
+     CORES
+          - #ECFF4B: Amarelo vibrante (títulos);
+          - #FFCDFA: Rosa-claro (articles e .mesIndex);
+          - #323D47: Cinza escuro (background-color do body);
+          - rgba(213,225,236): Cinza esbranquiçado (color);
+     FONTES
+          - 'Gochi Hand', cursive: títulos;
+          - 'Shadows Into Light', cursive: links (a);
+          - 'Space Mono', monospace: body;
+     
+*/
+
+body {
+  background-color: #323D47;
+  color: rgba(213,225,236);
+  font-family: 'Space Mono', monospace;
+  text-align: justify;
+}
+
 .titulo_principal {
-  font-size: 30px;
+  font-size: 3em;
   text-align: center;
-  color: #0E0B7A; 
-  font-family: monospace, sans-serif;
+  color: #ECFF4B; 
+  font-family: 'Gochi Hand', cursive;
   padding: 10px
 }
 
-.texto_comum {
-  color: #513000;
-  font-family: sans-serif;
-  padding: 5px;
-  text-align: justify;
-  font-size: 15px
-}
 
-.linha {width: 500px;
+.linha {
+  width: 500px;
   height: 3px;
   border: 1px solid;
   background: #000000;
@@ -34,10 +49,14 @@
 .div_linha_inteira {
   display: flex;
   justify-content: center; 
-  align-items: center; padding: 10px}
-  .estilo_ul {font-family: monospace; font-size: 1.5em; 
-  list-style-image: url('img/mao_para_direita-25x18.png'); 
-  color: #CAA71F;
+  align-items: center; padding: 10px
+}
+
+  .estilo_ul {
+    font-family: monospace;
+    font-size: 1.5em; 
+    list-style-image: url('img/mao_para_direita-25x18.png'); 
+    color: #CAA71F;
 }
 
 .estilo_ol {
