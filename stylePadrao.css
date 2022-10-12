@@ -57,6 +57,7 @@ PADRÕES DAS PÁGINAS
   overflow: hidden;
 }
 
+/*
 #navOverlay_index {
   position: fixed;
   display: none;
@@ -70,6 +71,7 @@ PADRÕES DAS PÁGINAS
   z-index: 2;
   cursor: pointer;
 }
+*/
 
 #textoMain_index {
   font-family: 'Space Mono', monospace;
