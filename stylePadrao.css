@@ -41,7 +41,9 @@ PADRÕES DAS PÁGINAS
   filter: brightness(50%);
 }
 
-#navButton_index {
+#navButton_index 
+  position: absolute;
+  margin: 0 auto 1em auto;
   height: 50px;
   width: 100%;
   background-color: #FFCDFA;
