@@ -1,15 +1,18 @@
 /* 
 PADRÕES DAS PÁGINAS
+
      CORES
           - #F4FF97: Amarelo-claro (usado no main);
           - #FFCDFA: Rosa-claro (usado nos articles e .mesIndex);
           - #323D47: Cinza escuro (background-color do body);
           - rgba(213,225,236): Cinza esbranquiçado (color padrão);
+
      FONTES
           - 'Dancing Script', cursive: usada nos .mesIndex;
           - 'Gochi Hand', cursive: padrão do body;
           - 'Shadows Into Light', cursive: links (a);
           - 'Space Mono', monospace: citações;
+
      ORDEM DE ORGANIZAÇÃO
           - Hierárquica: quanto mais específico um style for, mais alto ele estará;
           - Alfabética: letras maiúsculas e minúsculas se diferenciam (essas valendo mais), e caracteres especiais valem mais que uma letra;
@@ -39,18 +42,17 @@ PADRÕES DAS PÁGINAS
 }
 
 #navButton_index {
-  height: 2em;
+  height: 50px;
   width: 100%;
-  background-color: #F4FF97;
+  background-color: #FFCDFA;
   cursor: pointer;
-  color: #323D47;
-  border-radius: 0 0 50px 50px;
+  color: rgba(213,225,236);
+  border-radius: 50px;
   text-align: center;
   font-size: 2em;
   font-family: 'Gochi Hand', cursive;
   text-transform: lowercase;
-  border: solid #F4FF97 5px;
-  float: bottom;
+  overflow: hidden;
 }
 
 #navOverlay_index {
@@ -155,7 +157,7 @@ main {
 nav {
   display: grid;
   justify-content: center;
-  width: 100%;
+  width: 80%;
   margin: auto;
   height: 2em;
 }
