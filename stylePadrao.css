@@ -57,26 +57,19 @@ PADRÕES DAS PÁGINAS
   overflow: hidden;
 }
 
-#navLogo {
- position: fixed;
-  display: none;
-  width: 100%;
+#navOverlay_index {
   height: 100%;
+  width: 100%;
+  color: white;
+  position: fixed;
+  display: none;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  border: none;
-  background-color: rgba(255,255,131,0);
+  background-color: rgba(0,0,0,0.5);
   z-index: 2;
-}
-
-#navOverlay_index {
-  display: block;
-  background-image: linear-gradient(#FFEBEB, #FFFAEB, #EDFFEB, #EBFFFE, #EFEBFF, #FFEBFC, #FFEBEB, 270deg);
-  height: 100%;
-  width: 100%;
-  color: black;
+  cursor: pointer;
 }
 
 #textoMain_index {
