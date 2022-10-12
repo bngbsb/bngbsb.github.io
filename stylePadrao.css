@@ -6,7 +6,7 @@ PADRÕES DAS PÁGINAS
           - #323D47: Cinza escuro (background-color do body);
           - rgba(213,225,236): Cinza esbranquiçado (color padrão);
      FONTES
-          - 'Dancing Script', cursive: usada nos .mesIndex e main;
+          - 'Dancing Script', cursive: usada nos .mesIndex;
           - 'Gochi Hand', cursive: padrão do body;
           - 'Shadows Into Light', cursive: links (a);
           - 'Space Mono', monospace: citações;
@@ -46,7 +46,7 @@ PADRÕES DAS PÁGINAS
   border-radius: 0 0 50px 50px;
   text-align: center;
   font-size: 2em;
-  font-family: 'Boogaloo', cursive;
+  font-family: 'Gochi Hand', cursive;
   text-transform: uppercase;
   border: solid #F4FF97 5px;
   float: bottom;
