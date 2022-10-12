@@ -1,4 +1,6 @@
-alert("oiiii!");
+button.onclick {
+    alert("oiiii!")
+};
 
 function logoOn () {
     document.getElementById("logoHeader").style.display = "block";
