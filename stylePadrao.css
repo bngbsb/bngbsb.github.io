@@ -20,7 +20,7 @@ PADRÕES DAS PÁGINAS
      
 */
 
-/* IDs */
+// IDs
 
 #divImgMain_index {
   background-color: rgba(0,0,0,0);
@@ -57,8 +57,8 @@ PADRÕES DAS PÁGINAS
   overflow: hidden;
 }
 
-/*
 #navOverlay_index {
+  color: #323D47;
   position: fixed;
   display: none;
   width: 100%;
@@ -67,11 +67,10 @@ PADRÕES DAS PÁGINAS
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-image: linear-gradient(to top right, #FFB7B7, #FFFCB7, #C2FFB7, #B7FFE7, #B7D2FF, #E7B7FF, #FFB7DD);
   z-index: 2;
   cursor: pointer;
 }
-*/
 
 #textoMain_index {
   font-family: 'Space Mono', monospace;
