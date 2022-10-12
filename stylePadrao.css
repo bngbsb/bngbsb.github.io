@@ -69,6 +69,7 @@ PADRÕES DAS PÁGINAS
 }
 
 #textoMain_index {
+  font-family: 'Space Mono', monospace;
   display: flex;
   align-items: center;
   width: 40%;
