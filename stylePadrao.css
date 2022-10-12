@@ -10,6 +10,9 @@ PADRÕES DAS PÁGINAS
           - 'Gochi Hand', cursive: padrão do body;
           - 'Shadows Into Light', cursive: links (a);
           - 'Space Mono', monospace: citações;
+     ORDEM DE ORGANIZAÇÃO
+          - Hierárquica: quanto mais específico um style for, mais alto ele estará;
+          - Alfabética: letras maiúsculas e minúsculas se diferenciam (essas valendo mais), e caracteres especiais valem mais que uma letra;
      
 */
 
@@ -70,6 +73,7 @@ PADRÕES DAS PÁGINAS
 
 #textoMain_index {
   font-family: 'Space Mono', monospace;
+  font-size: 1em;
   display: flex;
   align-items: center;
   width: 40%;
@@ -193,7 +197,6 @@ ul {
 
 .header_main_nav {
   background-color: #F4FF97;
-  font-family: 'Dancing Script', cursive;
   margin: 2em auto 0 auto;
   color: #323D47;
   border-radius: 50px;
