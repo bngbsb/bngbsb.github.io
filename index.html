@@ -326,7 +326,18 @@
                     </p>
                 </div>
             </h4>
-        </div>
-        <script scr="main.js"></script>
+        </div> 
+        <script>
+            function abreOverlay () {
+                alert("function abre overlay");
+                document.getElementById("navOverlay_index").style.display = "block";
+            }
+
+            function fechaOverlay () {
+                alert("funcao fecha overlay");
+                document.getElementById("navOverlay_index").style.display = "none";
+            }
+        </script>   
+        //<script scr="main.js"></script>
       </body>
 </html>
