@@ -1,26 +1,43 @@
-<html>
+    <html>
+    <head>
+    <style>
+      #navOverlay_index {
+          position: fixed;
+          display: none;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: rgba(0,0,0,0.5);
+          z-index: 2;
+          cursor: pointer;
+        }
+    </style>
+    </head>
     <body>
-        <nav>
-            <button id="navButton_index" onclick="abreOverlay()">
-                Menu
-            </button>
-            <div id="navOverlay_index" onclick="fechaOverlay()">
-                <div id="txtNav_index">
-                    link 1 <br>
-                    link 2 <br>
-                    link 3 <br>
-                    <div id="obsTxtNav_index">
-                        Clique em qualquer lugar da tela para fechar o menu
-                    </div>
+        <div id="navOverlay_index" onclick="fechaOverlay()">
+            <div id="txtNav_index">
+                link 1 <br>
+                link 2 <br>
+                link 3 <br>
+                <div id="obsTxtNav_index">
+                    Clique em qualquer lugar da tela para fechar o menu
                 </div>
-            </div> 
-        </nav>
+            </div>
+        </div> 
+        <button id="navButton_index" onclick="abreOverlay()">
+            Menu
+        </button>
         <script>
             function abreOverlay () {
+                alert("function abre overlay");
                 document.getElementById("navOverlay_index").style.display = "block";
             }
 
             function fechaOverlay () {
+                alert("funcao fecha overlay");
                 document.getElementById("navOverlay_index").style.display = "none";
             }
         </script>
