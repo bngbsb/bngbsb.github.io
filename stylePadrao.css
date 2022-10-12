@@ -71,7 +71,7 @@ PADRÕES DAS PÁGINAS
 
 #navOverlay_index {
   display: block;
-  background-image: linear-gradient(#FFEBEB, #FFFAEB, #EDFFEB, #EBFFFE, #EFEBFF, #FFEBFC, #FFEBEB);
+  background-image: linear-gradient(#FFEBEB, #FFFAEB, #EDFFEB, #EBFFFE, #EFEBFF, #FFEBFC, #FFEBEB, 270deg);
   height: 100%;
   width: 100%;
   color: black;
