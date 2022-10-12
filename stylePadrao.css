@@ -70,7 +70,11 @@ PADRÕES DAS PÁGINAS
 }
 
 #navOverlay_index {
-  display: none;
+  display: block;
+  background-image: linear-gradient(#FFEBEB, #FFFAEB, #EDFFEB, #EBFFFE, #EFEBFF, #FFEBFC, #FFEBEB);
+  height: 100%;
+  width: 100%;
+  color: black;
 }
 
 #textoMain_index {
