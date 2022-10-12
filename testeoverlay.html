@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <nav>
+            <button id="navButton_index" onclick="abreOverlay()">
+                Menu
+            </button>
+            <div id="navOverlay_index" onclick="fechaOverlay()">
+                <div id="txtNav_index">
+                    link 1 <br>
+                    link 2 <br>
+                    link 3 <br>
+                    <div id="obsTxtNav_index">
+                        Clique em qualquer lugar da tela para fechar o menu
+                    </div>
+                </div>
+            </div> 
+        </nav>
+        <script>
+            function abreOverlay () {
+                document.getElementById("navOverlay_index").style.display = "block";
+            }
+
+            function fechaOverlay () {
+                document.getElementById("navOverlay_index").style.display = "none";
+            }
+        </script>
+    </body>
+</html>
