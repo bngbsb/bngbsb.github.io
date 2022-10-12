@@ -47,7 +47,7 @@ PADRÕES DAS PÁGINAS
   text-align: center;
   font-size: 2em;
   font-family: 'Gochi Hand', cursive;
-  text-transform: uppercase;
+  text-transform: lowercase;
   border: solid #F4FF97 5px;
   float: bottom;
 }
@@ -73,7 +73,7 @@ PADRÕES DAS PÁGINAS
 
 #textoMain_index {
   font-family: 'Space Mono', monospace;
-  font-size: 0.5em;
+  font-size: 0.7em;
   display: flex;
   align-items: center;
   width: 40%;
