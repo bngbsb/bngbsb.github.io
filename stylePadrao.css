@@ -13,6 +13,7 @@ PADRÕES DAS PÁGINAS
      ORDEM DE ORGANIZAÇÃO
           - Hierárquica: quanto mais específico um style for, mais alto ele estará;
           - Alfabética: letras maiúsculas e minúsculas se diferenciam (essas valendo mais), e caracteres especiais valem mais que uma letra;
+              * observação: as regras acima não são válidas para propriedades dentro de um style.
      
 */
 
@@ -196,6 +197,7 @@ ul {
 }
 
 .header_main_nav {
+  width: 80%;
   background-color: #F4FF97;
   margin: 2em auto 0 auto;
   color: #323D47;
