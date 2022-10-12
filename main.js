@@ -2,6 +2,7 @@ button.onclick {
     alert("oiiii!")
 };
 
+/*
 function logoOn () {
     document.getElementById("logoHeader").style.display = "block";
 }
@@ -27,3 +28,4 @@ function navOn() {
 function navOff() {
     document.getElementById("nav_index").style.display = "none";
 }
+/*
