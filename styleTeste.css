@@ -8,6 +8,7 @@
     cursor: context-menu;
     background-color: rgba(213,225,236);
     color: #323D47;
+    transition: 0.5s;
 }
 
 #homeNav_index {
