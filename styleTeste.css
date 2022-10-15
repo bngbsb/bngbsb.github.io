@@ -43,6 +43,7 @@ nav ul {
 nav li {
     display: inline;
     color: rgba(213,225,236);
+    border: solid 2px #323D47;
 }
 
 body {
