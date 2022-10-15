@@ -1,11 +1,15 @@
 #opcoesNav_index {
     background-color: rgba(213,225,236);
     color: #323D47;
+    text-indent: 50px;
+}
+
+#homeNav_index {
+    margin: 0 50px 0 0;
 }
 
 nav {
     background-color: #323D47;
-    padding: 10px 0;
     width: 100%;
     font-size: 2em;
     color: rgba(213,225,236);
@@ -20,7 +24,6 @@ nav ul {
 
 nav li {
     display: inline;
-    padding: 0 50px;
     color: rgba(213,225,236);
 }
 
