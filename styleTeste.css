@@ -15,12 +15,6 @@
     text-indent: 50px;
 }
 
-#opcoesNav_index hover {
-    background-image: linear-gradient(to top right, #FFB7B7, #FFFCB7, #C2FFB7, #B7FFE7, #B7D2FF, #E7B7FF, #FFB7DD);
-    font-size: 3em;
-    transition: 1s;
-}
-    
 #homeNav_index {
     margin: 0 50px 0 0;
 }
