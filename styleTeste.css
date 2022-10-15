@@ -3,18 +3,6 @@
     color: #323D47;
 }
 
-body {
-    background-image: linear-gradient(to top right, #FFB7B7, #FFFCB7, #C2FFB7, #B7FFE7, #B7D2FF, #E7B7FF, #FFB7DD);
-    color: #323D47;
-    font-size: 1em;
-    font-family: 'Space mono', monospace;
-    text-align: center;
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    line-height: 1.5;
-}
-
 nav {
     background-color: #323D47;
     padding: 10px 0;
@@ -36,7 +24,17 @@ nav li {
     color: rgba(213,225,236);
 }
 
-
+body {
+    background-image: linear-gradient(to top right, #FFB7B7, #FFFCB7, #C2FFB7, #B7FFE7, #B7D2FF, #E7B7FF, #FFB7DD);
+    color: #323D47;
+    font-size: 1em;
+    font-family: 'Space mono', monospace;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    line-height: 1.5;
+}
 
 h1 {
     font-size: 4em;
