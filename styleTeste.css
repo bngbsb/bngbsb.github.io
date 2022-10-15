@@ -5,7 +5,7 @@
 }
 
 #opcoesNav_index:hover {
-    font-size: 3em;
+    font-size: 20px;
     background-image: linear-gradient(to top right, #FFB7B7, #FFFCB7, #C2FFB7, #B7FFE7, #B7D2FF, #E7B7FF, #FFB7DD);
     transition: 1s;
 }
@@ -18,7 +18,7 @@ nav {
     height: 10%;
     background-color: #323D47;
     width: 100%;
-    font-size: 2em;
+    font-size: 15px;
     color: rgba(213,225,236);
     position: absolute;
 }
