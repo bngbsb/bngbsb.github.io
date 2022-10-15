@@ -1,6 +1,6 @@
 #navOverlay_index {
-    border-right: 2px #323D47;
-    box-shadow: 0px 50px 10px #323D47;
+    border: 2px #323D47;
+    box-shadow: 0px 100px 2px #323D47;
     position: fixed;
     display: none;
     width: 20%;
