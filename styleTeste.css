@@ -27,7 +27,7 @@ nav {
 
 nav ul {
     display: grid;
-    grid-template-columns: 10% 80% 10%;
+    grid-template-columns: 20% 60% 20%;
 }
 
 nav li {
