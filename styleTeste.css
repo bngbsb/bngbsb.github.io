@@ -1,14 +1,32 @@
+#navOverlay_index {
+    position: fixed;
+    display: none;
+    width: 20%;
+    height: 90%;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+
 #opcoesNav_index {
     background-color: rgba(213,225,236);
     color: #323D47;
     text-indent: 50px;
 }
 
+#opcoesNav_index hover {
+    background-image: linear-gradient(to top right, #FFB7B7, #FFFCB7, #C2FFB7, #B7FFE7, #B7D2FF, #E7B7FF, #FFB7DD);
+    font-size: 3em;
+    transition: 1s;
+}
+    
 #homeNav_index {
     margin: 0 50px 0 0;
 }
 
 nav {
+    height: 10%;
     background-color: #323D47;
     width: 100%;
     font-size: 2em;
