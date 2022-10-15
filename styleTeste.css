@@ -13,6 +13,14 @@
     color: rgba(213,225,236);
 }
 
+#navOverlay_index ul {
+    list-style-type: none;
+}
+
+#navOverlay_index a {
+    
+}
+
 #opcoesNav_index:hover {
     cursor: context-menu;
     background-color: rgba(213,225,236);
