@@ -1,7 +1,13 @@
-#opcoesNav_index {
+#navOverlay_index {
+    position: fixed;
+    display: none;
+    width: 20%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
     background-color: #323D47;
-    color: rgba(213,225,236);
-    text-indent: 50px;
+    z-index: 2;
 }
 
 #opcoesNav_index:hover {
