@@ -27,6 +27,7 @@
     color: #323D47;
     transition: 0.7s;
     padding: 3px;
+    cursor: pointer;
 }
 
 nav {
