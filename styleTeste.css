@@ -1,13 +1,13 @@
 #opcoesNav_index {
-    background-color: rgba(213,225,236);
-    color: #323D47;
+    background-color: #323D47;
+    color: rgba(213,225,236);
     text-indent: 50px;
 }
 
 #opcoesNav_index:hover {
-    font-size: 20px;
-    background-image: linear-gradient(to top right, #FFB7B7, #FFFCB7, #C2FFB7, #B7FFE7, #B7D2FF, #E7B7FF, #FFB7DD);
-    transition: 0.5s;
+    cursor: context-menu;
+    background-color: rgba(213,225,236);
+    color: #323D47;
 }
 
 #homeNav_index {
@@ -15,10 +15,9 @@
 }
 
 nav {
-    height: 10%;
     background-color: #323D47;
     width: 100%;
-    font-size: 15px;
+    font-size: 2em;
     color: rgba(213,225,236);
     position: absolute;
 }
