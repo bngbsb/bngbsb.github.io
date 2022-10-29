@@ -1,8 +1,6 @@
-alert("stylesheet: "+document.getElementById("styleSheet_1").href);
-/*
-document.getElementById("styleSheet_1").href = #;
-alert("stylesheet: "+document.getElementById("styleSheet_1").href);
-*/
+alert("stylesheet: " + document.getElementById("styleSheet_1").href);
+document.getElementById("styleSheet_1").href = "#";
+alert("stylesheet: " + document.getElementById("styleSheet_1").href);
 
 function abreOverlay () {
     alert("function abre overlay");
