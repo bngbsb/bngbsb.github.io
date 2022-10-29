@@ -1,6 +1,8 @@
 alert("stylesheet: " + document.getElementById("styleSheet_1").href);
+/*
 document.getElementById("styleSheet_1").href = "styleBlog_temaClaro.css";
 alert("stylesheet: " + document.getElementById("styleSheet_1").href);
+*/
 
 function abreOverlay () {
     alert("function abre overlay");
