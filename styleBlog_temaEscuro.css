@@ -158,12 +158,13 @@ nav {
   color: #323D47;
   display: grid;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   margin: auto;
   height: 2em;
 }
 
 nav ul {
+    width: 100%;
     display: grid;
     grid-template-columns: 20% 60% 20%;
 }
