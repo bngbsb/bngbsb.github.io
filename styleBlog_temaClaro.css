@@ -2,10 +2,10 @@
 PADRÕES DAS PÁGINAS
 
      CORES
-          - #F4FF97: Amarelo-claro (usado no main);
-          - #FFCDFA: Rosa-claro (usado nos articles e .mesIndex);
-          - #323D47: Cinza escuro (background-color do body);
-          - rgba(213,225,236): Cinza esbranquiçado (color padrão);
+          - #F4FF97: Amarelo-claro (usado nos articles e .mesIndex);
+          - #FFCDFA: Rosa-claro (usado no main);
+          - #323D47: Cinza escuro (color padrão);
+          - rgba(213,225,236): Cinza esbranquiçado (background-color do body);
 
      FONTES
           - 'Dancing Script', cursive: usada nos .mesIndex;
@@ -123,8 +123,8 @@ article {
 body {
   margin: 0;
   padding: 0;
-  color: rgba(213,225,236);
-  background-color: #323D47;
+  color: #323D47;
+  background-color: rgba(213,225,236);
   font-family: 'Gochi Hand', cursive;
 }
 
@@ -184,7 +184,7 @@ ul {
 .citacao {
   margin: 3em;
   padding-left: 2em;
-  border-left: solid 20px #FFCDFA;
+  border-left: solid 20px #F4FF97;
   font-family: 'Space Mono', monospace;
  }
 
@@ -198,11 +198,9 @@ ul {
 
 .header_main_nav {
   width: 80%;
-  background-color: #F4FF97;
+  background-color: #FFCDFA;
   margin: 2em auto 0 auto;
-  color: #323D47;
   border-radius: 50px;
-  border: solid rgba(213,225,236,0.4) 2px;
 }
 
 .imgCentro {
