@@ -1,3 +1,7 @@
+function temaEscuro () {
+    alert("stylesheet: "+document.getElementById("styleSheet_1").href)
+}
+
 function abreOverlay () {
     alert("function abre overlay");
     alert(document.getElementById("navOverlay_index").style.display); 
