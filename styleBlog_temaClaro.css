@@ -1,1 +1,257 @@
+/* 
+PADRÕES DAS PÁGINAS
 
+     CORES
+          - #F4FF97: Amarelo-claro (usado no main);
+          - #FFCDFA: Rosa-claro (usado nos articles e .mesIndex);
+          - #323D47: Cinza escuro (background-color do body);
+          - rgba(213,225,236): Cinza esbranquiçado (color padrão);
+
+     FONTES
+          - 'Dancing Script', cursive: usada nos .mesIndex;
+          - 'Gochi Hand', cursive: padrão do body;
+          - 'Shadows Into Light', cursive: links (a);
+          - 'Space Mono', monospace: citações;
+
+     ORDEM DE ORGANIZAÇÃO
+          - Hierárquica: quanto mais específico um style for, mais alto ele estará;
+          - Alfabética: letras maiúsculas e minúsculas se diferenciam (essas valendo mais), e caracteres especiais valem mais que uma letra;
+              * observação: as regras acima não são válidas para propriedades dentro de um style.
+     
+*/
+
+// IDs
+
+#divImgMain_index {
+  background-color: rgba(0,0,0,0);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  margin: 0 4.5%;
+}
+
+#logoHeader {
+  width: 100%;
+  margin: 4em 0;
+}
+
+#logoHeader:hover {
+  filter: brightness(50%);
+}
+
+#navButton_index {
+  position: absolute;
+  margin: 0 auto 1em auto;
+  height: 50px;
+  width: 80%;
+  background-color: #FFCDFA;
+  cursor: pointer;
+  color: #323D47;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Gochi Hand', cursive;
+  text-transform: lowercase;
+  overflow: hidden;
+}
+
+#navOverlay_index {
+  color: #323D47;
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to top right, #FFB7B7, #FFFCB7, #C2FFB7, #B7FFE7, #B7D2FF, #E7B7FF, #FFB7DD);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#textoMain_index {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.7em;
+  display: flex;
+  align-items: center;
+  width: 40%;
+  margin: 0 4em 0 0;
+  line-height: 1.5;
+  align: center;
+}
+
+#txtNav_index {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: #323D47;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+#obsTxtNav_index {
+  width: 100%;
+  font-size:  50%;
+  text-align: center;
+  align: center;
+}
+
+/* TAGS */
+     
+a {
+ color: #FFCDFA;
+ font-family: 'Shadows Into Light', cursive;
+}
+
+article {
+ width: 100%;
+ color: #FFCDFA;
+ text-align: center;
+ font-weight: 300;
+ font-size: 2em;
+ padding: 0.2em 0;
+ margin: 1em auto;
+ border-top: solid #FFCDFA 2px;
+ border-bottom: solid #FFCDFA 2px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: rgba(213,225,236);
+  background-color: #323D47;
+  font-family: 'Gochi Hand', cursive;
+}
+
+
+iframe {
+ margin: auto;
+ border-left: 2em ;
+}
+
+img {
+ margin: 2em auto;
+ width: 80%;
+}
+
+main {
+ color: #323D47;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ font-size: 150%;
+ margin: auto;
+ align: center;
+ width: 100%;
+ content: "";
+ clear: both;
+}
+
+nav {
+  display: grid;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  height: 2em;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  padding: 0px 10px;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: circle;
+  font-family: "Papyrus", "Georgia", "Brush Script MT", "Lucida Handwriting", fantasy, sans-serif;
+  text-align: justify;
+  border-color: #325408;
+}
+
+/* CLASSES */
+
+.centro {
+  margin: auto;
+  text-align: center;
+}
+
+.citacao {
+  margin: 3em;
+  padding-left: 2em;
+  border-left: solid 20px #FFCDFA;
+  font-family: 'Space Mono', monospace;
+ }
+
+.dia {
+  border-top: dashed;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  font-size: 40px;
+}
+
+.header_main_nav {
+  width: 80%;
+  background-color: #F4FF97;
+  margin: 2em auto 0 auto;
+  color: #323D47;
+  border-radius: 50px;
+  border: solid rgba(213,225,236,0.4) 2px;
+}
+
+.imgCentro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgRegistro {
+  border-radius: 50px;
+  border: 2px solid white;
+  margin: 2em auto;
+  width: 80%;
+}
+
+.mes_index {
+  color: #323D47;
+  border-radius: 30px;
+  width: 70%;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  text-align: center;
+  margin: 1em auto 0.5em auto;
+  font-size: 4em;
+  background-color: #FFCDFA;
+  padding: 10px;
+}
+
+ .mirrorRotate {
+  transform: rotate(180deg) scaleX(-1);
+ }
+
+.obs {
+  font-family: 'Dancing Script', cursive;
+  text-align: justify;
+  text-indent: 100px;
+  padding: 0px 20px 0px 10px;
+}
+
+.pCentro {
+  text-align: center;   
+}
+ 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.topBorder {
+  border-top: 3px solid #3A710E;   
+}
