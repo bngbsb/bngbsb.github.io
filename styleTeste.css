@@ -18,6 +18,7 @@
 }
 
 #navOverlay_index a {
+    align: center;
     text-decoration: none;
     text-align: center;
     color: #FFB7DD;
@@ -26,6 +27,16 @@
 navOverlay_index a::hover {
     cursor: pointer;
     font-size: 3em;
+}
+
+obsNavOverlay_index {
+    font-family: 'Amatic SC', cursive;
+    font-size: 21px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    
 }
 
 #opcoesNav_index:hover {
