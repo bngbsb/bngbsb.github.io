@@ -1,5 +1,5 @@
-alert("stylesheet: "+document.getElementById("styleSheet_1").href);
-alert("stylesheet: "+document.getElementById("main").style);
+alert("stylesheet 1: "+document.getElementById("styleSheet_1").href);
+alert("stylesheet 2: "+document.getElementById("main").style);
 
 function abreOverlay () {
     alert("function abre overlay");
