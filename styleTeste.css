@@ -24,12 +24,12 @@
     color: #FFB7DD;
 }
 
-navOverlay_index a::hover {
+#navOverlay_index a::hover {
     cursor: pointer;
     font-size: 3em;
 }
 
-obsNavOverlay_index {
+#obsNavOverlay_index {
     font-family: 'Amatic SC', cursive;
     font-size: 21px;
     color: white;
