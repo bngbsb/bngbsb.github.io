@@ -163,6 +163,16 @@ nav {
   height: 2em;
 }
 
+nav ul {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+nav li {
+    display: inline;
+    border: solid 2px #323D47;
+}
+
 p {
   text-indent: 50px;
   text-align: justify;
