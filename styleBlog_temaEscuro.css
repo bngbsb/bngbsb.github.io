@@ -111,6 +111,7 @@ a {
 article {
  width: 100%;
  color: #FFCDFA;
+ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
  text-align: center;
  font-weight: 300;
  font-size: 2em;
@@ -153,6 +154,8 @@ main {
 }
 
 nav {
+  background-color: rgba(213,225,236);
+  color: #323D47;
   display: grid;
   justify-content: center;
   width: 80%;
@@ -202,7 +205,7 @@ ul {
   margin: 2em auto 0 auto;
   color: #323D47;
   border-radius: 50px;
-  border: solid rgba(213,225,236,0.4) 2px;
+  border: solid #323D47 2px;
 }
 
 .imgCentro {
@@ -221,6 +224,7 @@ ul {
 .mes_index {
   color: #323D47;
   border-radius: 30px;
+  border: #323D47 2px;
   width: 70%;
   font-family: 'Dancing Script', cursive;
   font-weight: 400;
