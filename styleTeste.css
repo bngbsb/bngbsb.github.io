@@ -18,7 +18,14 @@
 }
 
 #navOverlay_index a {
-    
+    text-decoration: none;
+    text-align: center;
+    color: #FFB7DD;
+}
+
+navOverlay_index a::hover {
+    cursor: pointer;
+    font-size: 3em;
 }
 
 #opcoesNav_index:hover {
