@@ -1,6 +1,5 @@
-function temaEscuro () {
-    alert("stylesheet: "+document.getElementById("styleSheet_1").href)
-}
+alert("stylesheet: "+document.getElementById("styleSheet_1").href);
+alert("stylesheet: "+document.getElementById("main").style);
 
 function abreOverlay () {
     alert("function abre overlay");
