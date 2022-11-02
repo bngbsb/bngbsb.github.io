@@ -1,7 +1,7 @@
-function abreOverlay () {
+function abreOverlayNav () {
     document.getElementById("navOverlay_index").style.display = "block";
 }
 
-function fechaOverlay () {
+function fechaOverlayNav () {
     document.getElementById("navOverlay_index").style.display = "none";
 }
