@@ -12,70 +12,15 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
 
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="css_cadastroDeClientes.css">
+
 		<title>
 			Cadastro de clientes
 		</title>
-		<style>
-
-			main {
-				font-family: 'Kanit', sans-serif;
-			}
-
-			body {
-				background-color:  #E7E9EC;
-				color:  black;
-				font-family: "Teko", sans-serif;
-				text-align: justify;
-			}
-
-			header {
-				width:  100%;
-				height: 60px;
-				display: flex;
-				justify-content: space-between;
-				align-items:  center;
-				flex-wrap: nowrap;
-				background-color: #0F1927;
-				color: white;
-			}
-
-			header div {
-				text-align: center;
-				display:  inline;
-				padding: 0 50px;
-
-			}
-
-			header div span {
-				width:  30px;
-				height:  30px;
-				border-radius: 30px;
-				background-color: #E7E9EC;
-				color: #0F1927;
-				margin: 10px;
-
-			}
-
-			#usuario {
-				display:  flex;
-				flex-wrap: nowrap;
-				align-items:  center;
-			}
-
-			#logoHeader {
-				font-size: 2em;
-			}
-
-			#subtitulo {
-				padding: 10px;
-				text-align: center;
-				top: 60px;
-				border-bottom:  dotted grey 2px;
-				font-size: 1.5em;
-				color:  black;
-			}
-
-		</style>
 	</head>
 
 	</body>
@@ -89,7 +34,7 @@
 				</div>
 				<div id="usuario">
 					<span>
-						b
+						.
 					</span>
 					<p>
 						Nome do usuário
@@ -100,17 +45,126 @@
 				Cadastrar cliente
 			</p>
 		</main>
-		<section>
-			<form>
-				<label for="nomeSobrenome_form"> Nome e sobrenome </label>
-				<input type="text" id="nomeSobrenome_form">
+		<section id="sectionSectionForm">
+			<section id="sectionForm">
+				<form>
+					<section>
+						<h3>
+							Identificação
+						</h3>
+						<section>
+							<label for="prenome_form">
+								Prenome:
+							</label>
+							<input type="text" id="nomeSobrenome_form" required>
+						</section>
+						<section>
+							<label for="sobrenome_form">
+								Sobrenome:
+							</label>
+							<input type="text" id="nomeSobrenome_form" required>
+						</section>
+						<section>
+							<label>
+								Gênero:
+							</label>
+							<select>
+								<option>
+									Masculino
+								</option>
+								<option>
+									Feminino
+								</option>
+							</select>
+						</section>
+					</section>
 
-				<label for="">
-			</form>
+					<section id="sectionOcupacao_form">
+						<h3>
+							Informações gerais
+						</h3>
+
+						<section>
+							<label for="ocupacaoForm" display="flex" align-items="center">
+								Ocupação atual:
+							</label>
+							<select id="ocupacaoForm" required>
+								<option>
+									Estudando
+								</option>
+								<option>
+									Trabalhando
+								</option>
+								<option>
+									Nenhuma
+								</option>
+							</select>
+						</section>
+
+						<section>
+							<label for="estadoCivil_form">
+								Estado civil:
+							</label>
+							<select id="estadoCivil_form" required>
+								<option>
+									Solteiro
+								</option>
+								<option>
+									Casado
+								</option>
+								<option>
+									Divorciado
+								</option>
+								<option>
+									Viúvo
+								</option>
+							</select>
+						</section>
+						<section>
+							<label for="nascimentoForm">
+								Data de nascimento:
+							</label>
+							<input type="date" id="nascimentoForm" required>
+						</section>
+						
+					</section>
+
+					<section>
+						<h3>
+							Domicílio
+						</h3>
+						<section>
+							<label for="cep">
+								CEP:
+							</label>
+							<input type="tel" id="cep">
+							<span id="tooltip">
+								?
+							</span>
+						</section>
+					</section>
+
+					<section id="form_section2">
+						<h3>
+							Observações
+						</h3>
+						<textarea id="obsForm" cols="40" rows="6"></textarea>
+					</section>
+					<section>
+						bla
+					</section>
+					<section>
+						bla
+					</section>
+				</form>
+			</section>
 		</section>
 	</body>
 
 	<footer>
 
 	</footer>
+	<script>
+
+	</script>
 </html>
