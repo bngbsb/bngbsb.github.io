@@ -1,7 +1,15 @@
+.material-symbols-outlined {
+	font-variation-settings:
+	'FILL' 0,
+	'wght' 400,
+	'GRAD' 0,
+	'opsz' 48
+}
+
 body {
 	font-size: 2em;
 	background-color:  #E7E9EC;
-	color:  black;
+	color: #0F1927;
 	font-family: "Teko", sans-serif;
 	text-align: center;
 }
@@ -13,31 +21,29 @@ main {
 }
 
 header {
-	width:  100%;
+	padding: 0 50px;
 	height: 15%;
-	display: flex;
+	display: grid;
 	grid-template-columns: 1fr 4fr 1fr;
 	justify-content: space-between;
 	align-items:  center;
-	flex-wrap: nowrap;
 	background-color: #0F1927;
-	color: white;
+	color: #4DC877;
 }
 
 header div {
 	text-align: center;
 	display:  inline;
-	padding: 0 100px;
-
 }
 
-header div span {
-	width:  60px;
-	height:  60px;
-	border-radius: 200%;
-	background-color: #E7E9EC;
+#fotoPerfil {
+	width:  84px;
+	height: 49px;
+	border-radius: 100%;
+	background-color: #4DC877;
 	color: #0F1927;
 	margin: 20px;
+	font-size: 1em;
 }
 
 #usuario {
@@ -46,33 +52,41 @@ header div span {
 	align-items:  center;
 }
 
+#perfilUsuario {
+	position: relative;
+	bottom: 10px;
+	font-size: 0.5em;
+	display: block;
+	width:  100%;
+}
+
 #logoHeader {
 	font-size: 2em;
+	display:  block;
+	width:  100%;
+	color: white;
 }
 
 #subtitulo {
 	display:  inline-block;
-	width:  100%;
 	height: 10%;
-	padding:  5px 0;
-	background-color: rgba(77, 200, 119, 0.5);
-	text-align: center;
-	top: 60px;
-	font-size: 1.5em;
-	color:  #0F1927;
-}
-
-#sectionSectionForm {
 	width: 100%;
-	position: static;
+	padding:  5px 0;
+	background-color: rgba(77, 200, 119, 0.8);
+	text-align: center;
+	font-size: 1em;
+	color:  #0F1927;
 }
 
 form {
 	position: absolute;
-	top: 28%;
+	top: 50%;
 	left: 50%;
-	transform: translate(-50%);
+	transform: translate(-50%, -37.5%);
 	width: 100%;
+}
+
+#gridForm {
 	display:  grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	row-gap: 20px;
@@ -85,14 +99,17 @@ form h3 {
 	text-align: center;
 	font-size: 1.5em;
 	display:  block;
+	width: 100%;
 	padding: 7px 0 0 0;
 	border-top: 3px rgba(77, 200, 119, 0.5) solid;
 	border-bottom: 3px rgba(77, 200, 119, 0.5) solid;
+	margin-bottom: 5px;
+	background-color: white;
 }
 
-form  label {
-	text-align: center;
-	display: inline-block;
+
+form label {
+	text-align: left;
 	padding:  10px 10px 0 2px;
 }
 
@@ -108,26 +125,94 @@ form input {
 	border-left: none;
 	border-right: none;
 	display: inline-block;
-	width: 60%;
+	background-color: #E7E9EC;
 }
 
 form select {
-	display:  inline-block;
+	width: 100%;
 	font-family: "Indie Flower", sans-serif;
 	font-size: 0.7em;
 	text-align: center;
+	height: 1.5em;
+	border-top:  none;
+	border-right: none;
+	border-bottom: 2px solid #4DC877;
+	border-left: none;
+	background-color: #E7E9EC;
 }
 
 textarea {
-	margin:  10px;
+	padding: 0 5px;
+	margin: 10px;
+	background-color: transparent;
+	border: 2px solid #4DC877;
+	font-family: "Indie Flower", cursive;
+	font-size: 0.6em;
+}
+
+select:focus, input:focus, textarea:focus {
+	outline: none;
 }
 
 #tooltip {
 	display: inline-block;
-	width:  1em;
+	width: 1em;
 	height: 1em;
-	background-color: #0F1927;
-	color: white;
+	border: 2px solid #4DC877;
 	border-radius: 1em;
 	margin: 0 0 0 3px;
+}
+
+#uf, #ddd_fix, #ddd_cel {
+	width:  50%;
+}
+
+#uf, #ddd_fix, #ddd_cel {
+	margin: 0 5px;
+}
+
+#infoForm section, #domForm section, #idForm section, #contatoForm section {
+	display:  flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	margin: auto;
+}
+
+#cep {
+	width:  70%;
+}
+
+#fotoForm {
+	margin: auto;
+	width: 3em;
+	height: 3em;
+	border-radius: 100%;
+	border: 2px solid #4DC877;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.3em;
+}
+
+
+#fotoForm:hover {
+	transition: 0.5s;
+	cursor: pointer;
+	background-color: rgba(77, 200, 119, 0.5);
+}
+
+#enviar {
+	height: 2em;
+	margin: 15px 0 0 0;
+	display: block;
+	width: 13%;
+	margin: 5px auto 0;
+	background-color: #0F1927;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Kanit', sans-serif;
+	border:  none;
+	border-radius: 40px;
 }
