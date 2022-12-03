@@ -2,6 +2,8 @@
 <html>
 	<head>
 
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 		<link rel="stylesheet" href="reset.css">
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,6 +23,7 @@
 		<title>
 			Cadastro de clientes
 		</title>
+
 	</head>
 
 	</body>
@@ -32,38 +35,31 @@
 				<div id="logoHeader">
 					Nome do Sistema
 				</div>
-				<div id="usuario">
-					<span>
-						.
-					</span>
-					<p>
-						Nome do usuário
-					</p>
-				</div>
+				<section>
+					<div id="usuario">
+						<span id="fotoPerfil" class="material-symbols-outlined">
+							person
+						</span>
+						<p>
+							Fulano da Silva
+						</p>
+					</div>
+					<section id="perfilUsuario">
+							Administrador
+					</section>
+				</section>
 			</header>
 			<p id="subtitulo">
 				Cadastrar cliente
 			</p>
 		</main>
-		<section id="sectionSectionForm">
-			<section id="sectionForm">
-				<form>
-					<section>
-						<h3>
-							Identificação
-						</h3>
-						<section>
-							<label for="prenome_form">
-								Prenome:
-							</label>
-							<input type="text" id="nomeSobrenome_form" required>
-						</section>
-						<section>
-							<label for="sobrenome_form">
-								Sobrenome:
-							</label>
-							<input type="text" id="nomeSobrenome_form" required>
-						</section>
+		<form>
+			<section id="gridForm">
+				<section>
+					<h3>
+						Identificação
+					</h3>
+					<section id="idForm">
 						<section>
 							<label>
 								Gênero:
@@ -77,35 +73,38 @@
 								</option>
 							</select>
 						</section>
-					</section>
-
-					<section id="sectionOcupacao_form">
-						<h3>
-							Informações gerais
-						</h3>
-
 						<section>
-							<label for="ocupacaoForm" display="flex" align-items="center">
-								Ocupação atual:
+							<label for="prenome_form">
+								Prenome:
 							</label>
-							<select id="ocupacaoForm" required>
-								<option>
-									Estudando
-								</option>
-								<option>
-									Trabalhando
-								</option>
-								<option>
-									Nenhuma
-								</option>
-							</select>
+							<input type="text" id="prenome_form" required>
+						</section>
+						<section>
+							<label for="sobrenome_form">
+								Sobrenome:
+							</label>
+							<input type="text" id="sobrenome_form" required>
+						</section>
+					</section>
+				</section>
+
+				<section>
+					<h3>
+						Informações gerais
+					</h3>
+					<section id="infoForm">
+						<section>
+							<label for="nascimento">
+								Nascimento:
+							</label>
+							<input type="date" id="nascimento" required>
 						</section>
 
 						<section>
-							<label for="estadoCivil_form">
-								Estado civil:
+							<label id="istado" for="estadoCivil">
+								Estado<span style="color: transparent; font-size: 0.5em">/</span>civil:
 							</label>
-							<select id="estadoCivil_form" required>
+							<select id="estadoCivil" required>
 								<option>
 									Solteiro
 								</option>
@@ -120,45 +119,201 @@
 								</option>
 							</select>
 						</section>
-						<section>
-							<label for="nascimentoForm">
-								Data de nascimento:
-							</label>
-							<input type="date" id="nascimentoForm" required>
-						</section>
-						
-					</section>
 
-					<section>
-						<h3>
-							Domicílio
-						</h3>
+						<section>
+							<label for="ocupacao">
+								Ocupação:
+							</label>
+							<select id="ocupacao" required>
+								<option>
+									Estudando
+								</option>
+								<option>
+									Trabalhando
+								</option>
+								<option>
+									Nenhuma
+								</option>
+							</select>
+						</section>
+
+					</section>
+				</section>
+
+				<section>
+					<h3>
+						Endereço
+					</h3>
+					<section id="domForm">
 						<section>
 							<label for="cep">
 								CEP:
 							</label>
-							<input type="tel" id="cep">
+							<input type="tel" id="cep" required>
 							<span id="tooltip">
 								?
 							</span>
 						</section>
+						<section>
+							<label for="cidade">
+								UF/Cidade:
+							</label>
+							<select id="uf" required>
+								<option>
+									AC
+								</option>
+								<option>
+									AL
+								</option>
+								<option>
+									AP
+								</option>
+								<option>
+									AM
+								</option>
+								<option>
+									BA
+								</option>
+								<option>
+									CE
+								</option>
+								<option>
+									DF
+								</option>
+								<option>
+									ES
+								</option>
+								<option>
+									GO
+								</option>
+								<option>
+									MA
+								</option>
+								<option>
+									MT
+								</option>
+								<option>
+									MS
+								</option>
+								<option>
+									MG
+								</option>
+								<option>
+									PA
+								</option>
+								<option>
+									PB
+								</option>
+								<option>
+									PR
+								</option>
+								<option>
+									PE
+								</option>
+								<option>
+									PE
+								</option>
+								<option>
+									PI
+								</option>
+								<option>
+									RJ
+								</option>
+								<option>
+									RN
+								</option>
+								<option>
+									RS
+								</option>
+								<option>
+									RO
+								</option>
+								<option>
+									RR
+								</option>
+								<option>
+									SC
+								</option>
+								<option>
+									SP
+								</option>
+								<option>
+									SE
+								</option>
+								<option>
+									TO
+								</option>
+							</select>
+							<input type="text" id="cidadeForm" required>
+						</section>
+						<section>
+							<label for="rua">
+								Rua:
+							</label>
+							<input type="text" id="rua" placeholder="Rua" required>
+						</section>
+						<section>
+							<label for="numero">
+								Bloco/Número:
+							</label>
+							<input type="text" id="numero" placeholder="Nº" required>
+						</section>
 					</section>
+				</section>
 
-					<section id="form_section2">
-						<h3>
-							Observações
-						</h3>
-						<textarea id="obsForm" cols="40" rows="6"></textarea>
+				<section>
+					<h3>
+						Contato
+					</h3>
+					<section id="contatoForm">
+						<section>
+							<label for="ddd">
+								Fixo:
+							</label>
+							<input type="tel" id="ddd_fix" placeholder="DDD">
+							<input type="tel" id="tel_fix" placeholder="Número">
+						</section>
+						<section>
+							<label for="ddd">
+								Celular:
+							</label>
+							<input type="tel" id="ddd_cel" placeholder="DDD" required>
+							<input type="tel" id="tel_cel" placeholder="Número" required>
+						</section>
+						<section>
+							<label>
+								Email:
+							</label>
+							<input type="email" id="email">
+						</section>
 					</section>
-					<section>
-						bla
+				</section>
+
+				<section>
+					<h3>
+						Foto
+					</h3>
+					<span id="fotoForm">
+						<p id="pFotoForm" class="material-symbols-outlined">
+							add_a_photo
+						</p>
+					</span>
+				</section>
+
+				<section id="form_section2">
+					<h3>
+						Observações
+					</h3>
+
+					<section id="obserForm">
+						<textarea id="obsForm" cols="37" rows="4" placeholder="Escreva aqui sobre o cliente!"></textarea>
 					</section>
-					<section>
-						bla
-					</section>
-				</form>
+				</section>
 			</section>
-		</section>
+			<section>
+				<input type="submit" id="enviar" value="Cadastrar">
+			</section>
+		</form>
 	</body>
 
 	<footer>
