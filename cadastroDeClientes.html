@@ -56,12 +56,12 @@
 		<form>
 			<section id="gridForm">
 				<section>
-					<h3>
+					<h3 class="obrigatorio">
 						Identificação
 					</h3>
 					<section id="idForm">
 						<section>
-							<label class="obrigatorio">
+							<label>
 								Gênero:
 							</label>
 							<select required>
@@ -74,13 +74,13 @@
 							</select>
 						</section>
 						<section>
-							<label for="prenome_form" class="obrigatorio">
+							<label for="prenome_form">
 								Prenome:
 							</label>
 							<input type="text" id="prenome_form" required>
 						</section>
 						<section>
-							<label for="sobrenome_form" class="obrigatorio">
+							<label for="sobrenome_form">
 								Sobrenome:
 							</label>
 							<input type="text" id="sobrenome_form" required>
@@ -89,19 +89,19 @@
 				</section>
 
 				<section>
-					<h3>
+					<h3 class="obrigatorio">
 						Informações gerais
 					</h3>
 					<section id="infoForm">
 						<section>
-							<label for="nascimento" class="obrigatorio">
+							<label for="nascimento">
 								Nascimento:
 							</label>
 							<input type="date" id="nascimento" required>
 						</section>
 
 						<section>
-							<label for="estadoCivil" class="obrigatorio">
+							<label for="estadoCivil">
 								Estado<span style="color: transparent; font-size: 0.5em">/</span>civil:
 							</label>
 							<select id="estadoCivil" required>
@@ -121,7 +121,7 @@
 						</section>
 
 						<section>
-							<label for="ocupacao" class="obrigatorio">
+							<label for="ocupacao">
 								Ocupação:
 							</label>
 							<select id="ocupacao" required>
@@ -146,7 +146,7 @@
 					</h3>
 					<section id="domForm">
 						<section>
-							<label for="cep" class="obrigatorio">
+							<label for="cep">
 								CEP:
 							</label>
 							<input type="tel" id="cep" required>
@@ -155,7 +155,7 @@
 							</span>
 						</section>
 						<section>
-							<label for="cidade" class="obrigatorio">
+							<label for="cidade">
 								UF/Cidade:
 							</label>
 							<select id="uf" required>
@@ -247,13 +247,13 @@
 							<input type="text" id="cidadeForm" required>
 						</section>
 						<section>
-							<label for="rua" class="obrigatorio">
+							<label for="rua">
 								Rua:
 							</label>
 							<input type="text" id="rua" placeholder="Rua" required>
 						</section>
 						<section>
-							<label for="numero" class="obrigatorio">
+							<label for="numero">
 								Bloco/Número:
 							</label>
 							<input type="text" id="numero" placeholder="Nº" required>
@@ -274,15 +274,15 @@
 							<input type="tel" id="tel_fix" placeholder="Número">
 						</section>
 						<section>
-							<label for="ddd" class="obrigatorio">
-								Celular:
+							<label for="ddd">
+								Celular:<span class="obrigatorio"></span>
 							</label>
 							<input type="tel" id="ddd_cel" placeholder="DDD" required>
 							<input type="tel" id="tel_cel" placeholder="Número" required>
 						</section>
 						<section>
-							<label class="obrigatorio">
-								Email:
+							<label>
+								Email:<span class="obrigatorio"></span>
 							</label>
 							<input type="email" id="email" required>
 						</section>
