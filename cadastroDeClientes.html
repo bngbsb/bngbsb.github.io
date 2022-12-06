@@ -61,10 +61,10 @@
 					</h3>
 					<section id="idForm">
 						<section>
-							<label>
+							<label class="obrigatorio">
 								Gênero:
 							</label>
-							<select class="obrigatorio" required>
+							<select required>
 								<option>
 									Masculino
 								</option>
@@ -74,16 +74,16 @@
 							</select>
 						</section>
 						<section>
-							<label for="prenome_form">
+							<label for="prenome_form" class="obrigatorio">
 								Prenome:
 							</label>
-							<input type="text" id="prenome_form" class="obrigatorio" required>
+							<input type="text" id="prenome_form" required>
 						</section>
 						<section>
-							<label for="sobrenome_form">
+							<label for="sobrenome_form" class="obrigatorio">
 								Sobrenome:
 							</label>
-							<input type="text" id="sobrenome_form" class="obrigatorio" required>
+							<input type="text" id="sobrenome_form" required>
 						</section>
 					</section>
 				</section>
@@ -94,17 +94,17 @@
 					</h3>
 					<section id="infoForm">
 						<section>
-							<label for="nascimento">
+							<label for="nascimento" class="obrigatorio">
 								Nascimento:
 							</label>
-							<input type="date" id="nascimento" class="obrigatorio" required>
+							<input type="date" id="nascimento" required>
 						</section>
 
 						<section>
-							<label for="estadoCivil">
+							<label for="estadoCivil" class="obrigatorio">
 								Estado<span style="color: transparent; font-size: 0.5em">/</span>civil:
 							</label>
-							<select id="estadoCivil" class="obrigatorio" required>
+							<select id="estadoCivil" required>
 								<option>
 									Solteiro
 								</option>
@@ -121,10 +121,10 @@
 						</section>
 
 						<section>
-							<label for="ocupacao">
+							<label for="ocupacao" class="obrigatorio">
 								Ocupação:
 							</label>
-							<select id="ocupacao" class="obrigatorio" required>
+							<select id="ocupacao" required>
 								<option>
 									Estudando
 								</option>
@@ -146,19 +146,19 @@
 					</h3>
 					<section id="domForm">
 						<section>
-							<label for="cep">
+							<label for="cep" class="obrigatorio">
 								CEP:
 							</label>
-							<input type="tel" id="cep" class="obrigatorio" required>
+							<input type="tel" id="cep" required>
 							<span id="tooltip">
 								?
 							</span>
 						</section>
 						<section>
-							<label for="cidade">
+							<label for="cidade" class="obrigatorio">
 								UF/Cidade:
 							</label>
-							<select id="uf" class="obrigatorio" required>
+							<select id="uf" required>
 								<option>
 									AC
 								</option>
@@ -244,19 +244,19 @@
 									TO
 								</option>
 							</select>
-							<input type="text" id="cidadeForm" class="obrigatorio" required>
+							<input type="text" id="cidadeForm" required>
 						</section>
 						<section>
-							<label for="rua">
+							<label for="rua" class="obrigatorio">
 								Rua:
 							</label>
-							<input type="text" id="rua" placeholder="Rua" class="obrigatorio" required>
+							<input type="text" id="rua" placeholder="Rua" required>
 						</section>
 						<section>
-							<label for="numero">
+							<label for="numero" class="obrigatorio">
 								Bloco/Número:
 							</label>
-							<input type="text" id="numero" placeholder="Nº" class="obrigatorio" required>
+							<input type="text" id="numero" placeholder="Nº" required>
 						</section>
 					</section>
 				</section>
@@ -274,17 +274,17 @@
 							<input type="tel" id="tel_fix" placeholder="Número">
 						</section>
 						<section>
-							<label for="ddd">
+							<label for="ddd" class="obrigatorio">
 								Celular:
 							</label>
-							<input type="tel" id="ddd_cel" placeholder="DDD" class="obrigatorio" required>
-							<input type="tel" id="tel_cel" placeholder="Número" class="obrigatorio" required>
+							<input type="tel" id="ddd_cel" placeholder="DDD" required>
+							<input type="tel" id="tel_cel" placeholder="Número" required>
 						</section>
 						<section>
-							<label>
+							<label class="obrigatorio">
 								Email:
 							</label>
-							<input type="email" id="email" class="obrigatorio" required>
+							<input type="email" id="email" required>
 						</section>
 					</section>
 				</section>
