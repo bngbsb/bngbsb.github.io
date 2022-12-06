@@ -113,6 +113,12 @@ form label {
 	padding:  10px 10px 0 2px;
 }
 
+.obrigatorio:after {
+	content: "*";
+	font-weight: bold;
+	color: red;
+}
+
 form input {
 	text-align: center;
 	margin: auto;
