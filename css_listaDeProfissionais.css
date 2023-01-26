@@ -1,0 +1,99 @@
+#filtroOrdemOpcoes {
+	margin: 0.5em 0 0 0;
+	position: sticky;
+	top: 1em;
+}
+
+.filtroOrdem {
+	overflow: hidden;
+	display: inline-block;
+	background-color: white;
+	border: 2px solid #4DC877;
+}
+
+.filtroOrdem div {
+	display: inline-block;
+}
+
+#ordem {
+	background-color: white;
+	text-transform: none;
+	position: initial;
+	width: 10em;
+}
+
+#filtro {
+	width: 10em;
+}
+
+#opcoes {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	width: 20em;
+	margin: auto;
+}
+
+#opcoes li, #opcoes label {
+	display: block;
+	padding: 5px 0;
+}
+
+#opcoesOrdem {
+	position: absolute;
+	top: calc(1em+2px);
+	width: 10em;
+	display: none;
+	flex-flow: wrap column;
+	justify-content: space-evenly;
+	text-align: center;
+	box-shadow: 0 5px 10px black;
+}
+
+#opcoesFiltro {
+	text-align: center;
+	display: none;
+	box-shadow: 0 5px 10px black;
+}
+
+#opcoesFiltro button {
+	background-color: black;
+	color: white;
+	outline: none;
+	border: none;
+	border-radius: 1em;
+	width: 70%;
+	margin: 5px;
+	padding: 2px;
+	font-size: 0.6em;
+	font-family: "Teko", sans-serif;
+}
+
+#profissionais section {
+	position: relative;
+	display: inline-block;
+	width: 40%;
+	background-color: white;
+	text-align: left;
+	padding: 20px;
+}
+
+#profissionais section > :first-child {
+	font-size: 3em;
+	font-weight: bolder;
+}
+
+#profissionais section span:first-child {
+	font-size: 1em;
+}
+
+#profissionais section > :last-child {
+	font-size: 4em;
+	display: inline;
+	border-radius: 100%;
+	color: black;
+	position: absolute;
+	background-color: black;
+	color: white;
+	top: -0.7em;
+	left: 30px;
+}

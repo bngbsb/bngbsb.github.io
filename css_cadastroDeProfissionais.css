@@ -1,0 +1,93 @@
+#fotoInfo {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	position: absolute;
+	bottom: 0.5em;
+	align-items: top;
+}
+
+#pFoto {
+	margin: 1em auto;
+	width: 7em;
+	height: 7em;
+	border-radius: 100%;
+	border: 10px solid #4DC877;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1em;
+}
+
+
+#pFoto:hover {
+	transition: 0.5s;
+	cursor: pointer;
+	background-color: rgba(77, 200, 119, 0.5);
+}
+
+#info {
+	display: flex;
+	align-items: center;
+}
+
+#info div {
+	display: block;
+	width: 100%;
+}
+
+label {
+	font-size: 0.8em;
+	color: #930707;
+}
+
+input {
+	font-family: "Indie Flower", cursive;
+	text-align: center;
+	font-size: 1.6em;
+	display: block;
+	margin: 0 auto 20px;
+	width: 80%;
+	border: none;
+	border-bottom: 2px solid #4DC877;
+	background-color: transparent;
+}
+
+input:focus {
+	outline: none;
+}
+
+#contato {
+	display: block;
+}
+
+#divContato {
+	display: flex;
+	align-items: top;
+}
+
+#divContato section {
+	display: inline-block;
+	width: 49%;
+}
+
+#contato label {
+	font-size: 0.6em;
+	margin: auto;
+	display: block;
+	width: 95%;
+}
+
+#contato input {
+	font-size: 1em;
+	display: inline-block;
+}
+
+#tel input, #email input {
+	width: 100%;
+	display: block;
+}
+
+#numero input, #rua input, #cep input {
+	width: 100%;
+}

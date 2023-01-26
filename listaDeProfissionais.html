@@ -1,0 +1,165 @@
+<meta charset="UTF-8">
+<html>
+	<head>
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+		<link rel="stylesheet" href="../reset.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="../css_geral.css">
+		<link rel="stylesheet" href="css_listaDeProfissionais.css">
+
+		<title>
+			Lista de profissionais
+		</title>
+
+	</head>
+
+	<body>
+		<main>
+			<header>
+				<div>
+					&#8942;
+				</div>
+				<div id="logoHeader">
+					Nome do Sistema
+				</div>
+				<section>
+					<div id="usuario">
+						<span id="fotoPerfil" class="material-symbols-outlined">
+							person
+						</span>
+						<p>
+							Fulano da Silva
+						</p>
+					</div>
+					<section id="perfilUsuario">
+							Administrador
+					</section>
+				</section>
+			</header>
+			<p id="subtitulo">
+				Lista de profissionais
+			</p>
+		</main>
+		<section id="filtroOrdemOpcoes">
+			<section class="filtroOrdem">
+				<div id="ordem" onclick="abreMenu_ordem()">
+					Ordenar 
+					<span id="seta" class="material-symbols-outlined">
+						arrow_drop_down
+					</span>
+				</div>
+				<div id="filtro" onclick="abreMenu_filtro()">
+					Filtrar
+					<span class="material-symbols-outlined">
+						arrow_drop_down
+					</span>
+				</div>
+			</section>
+			<section id="opcoes">
+				<div>
+					<ul id="opcoesOrdem">
+						<li>
+							Nome (A - Z)
+						</li>
+						<li>
+							Nome (Z - A)
+						</li>
+						<li>
+							Especialidade (A - Z)
+						</li>
+						<li>
+							Especialidade (Z - A)
+						</li>
+					</ul>
+				</div>
+				<div>
+					<form id="opcoesFiltro">
+						<div>
+							<label>
+								<input type="checkbox">
+								Especialidade 1
+							</label>
+							<label>
+								<input type="checkbox">
+								Especialidade 2
+							</label>
+							<label>
+								<input type="checkbox">
+								Especialidade 3
+							</label>
+							<label>
+								<input type="checkbox">
+								Especialidade 4
+							</label>
+							<label>
+								<input type="checkbox">
+								Especialidade 5
+							</label>
+						</div>
+						<div>
+							<button>
+								Aplicar
+							</button>
+						</div>
+					</form>
+				</div>
+			</section>	
+		</section>
+		<section id="profissionais">
+			<section>
+				<div>					
+					<span class="material-symbols-outlined">
+						person
+					</span>
+					Bruna Nogueira Galvão
+				</div>
+				<div>
+					<span class="material-symbols-outlined">
+						stethoscope_check
+					</span>
+					Nutricionista e pediatra
+				</div>
+				<span class="material-symbols-outlined">
+					account_circle
+				</span>
+			</section>
+		</section>
+		<script>
+			function abreMenu_ordem() {
+				var display = document.getElementById("opcoesOrdem").style.display;
+				if(display=="flex") {
+					document.getElementById("opcoesOrdem").style.display="none";
+					document.getElementById("ordem").style.backgroundColor="white";
+				} else {
+					document.getElementById("opcoesOrdem").style.display="flex";
+					document.getElementById("ordem").style.backgroundColor="rgba(77, 200, 119, 0.8)";
+				}
+			}
+			
+			function abreMenu_filtro() {
+				var display = document.getElementById("opcoesFiltro").style.display;
+				if(display=="block") {
+					document.getElementById("opcoesFiltro").style.display="none";
+					document.getElementById("filtro").style.backgroundColor="white";
+				} else {
+					document.getElementById("opcoesFiltro").style.display="block";
+					document.getElementById("filtro").style.backgroundColor="rgba(77, 200, 119, 0.8)";
+				}
+			}
+		</script>
+	</body>
+</html>
