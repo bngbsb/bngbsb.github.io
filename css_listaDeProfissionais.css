@@ -1,5 +1,5 @@
 #filtroOrdemOpcoes {
-	margin: 0.5em 0 0 0;
+	margin: 0.5em 0;
 	position: sticky;
 	top: 1em;
 }
@@ -31,6 +31,8 @@
 	grid-template-columns: 50% 50%;
 	width: 20em;
 	margin: auto;
+	position: absolute;
+	top: calc(15% + 1em);
 }
 
 #opcoes li, #opcoes label {
@@ -47,12 +49,14 @@
 	justify-content: space-evenly;
 	text-align: center;
 	box-shadow: 0 5px 10px black;
+	background-color: #E7E9EC;
 }
 
 #opcoesFiltro {
 	text-align: center;
 	display: none;
 	box-shadow: 0 5px 10px black;
+	background-color: #E7E9EC;
 }
 
 #opcoesFiltro button {
@@ -68,15 +72,26 @@
 	font-family: "Teko", sans-serif;
 }
 
-#profissionais section {
-	position: relative;
-	display: inline-block;
-	width: 40%;
-	background-color: white;
-	text-align: left;
-	padding: 20px;
+#profissionais {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 }
 
+#profissionais section {
+	margin: 15px auto;
+	display: inline-block;
+	width: 40%;
+	background-image: linear-gradient(150deg, #5B8C5A, #AED2AC 10%, #5EAD58, #5D6C5C);
+	text-align: center;
+	padding: 20px;
+	border: 20px white solid;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+/*
 #profissionais section > :first-child {
 	font-size: 3em;
 	font-weight: bolder;
@@ -85,15 +100,28 @@
 #profissionais section span:first-child {
 	font-size: 1em;
 }
-
-#profissionais section > :last-child {
-	font-size: 4em;
-	display: inline;
-	border-radius: 100%;
-	color: black;
-	position: absolute;
+*/
+#profissionais span {
+	font-size: 6em;
+	width: 1em;
+	border-radius: 6em;
 	background-color: black;
 	color: white;
-	top: -0.7em;
-	left: 30px;
+	margin: auto;
 }
+
+
+#profissionais li:first-child {
+	font-size: 3em;
+}
+/*
+#profissionais li:first-child {
+	list-style-image: url('https://www.blesshoteisexpress.com.br/site/img/1-pessoa.png');
+	margin: 0 0 0 2em;
+}
+
+#profissionais li:last-child {
+	list-style-image: url(https://cdn-icons-png.flaticon.com/512/809/809957.png);
+	margin: 0 0 0 2em;
+}
+*/
