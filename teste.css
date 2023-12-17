@@ -1,0 +1,242 @@
+body::-webkit-scrollbar {
+    width: 10px;
+    padding: 10px;
+}
+
+body::-webkit-scrollbar-track {
+	background: white; 
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #20a7f5;
+	border-radius: 10px;
+}
+
+#header {
+	display: grid;
+	grid-template-columns: 10% 90%;
+	margin: 3em auto 0;
+	border: 2px solid #20a7f5;
+	width: 90%;
+	box-shadow: 3px -3px 3px 2px rgba(111, 126, 145, 0.8);
+	height: 11em;
+}
+
+#header .circulos-caderno {
+	width: 25px;
+	height: calc(90% - 25px);
+}
+
+#adesivo {
+	position: absolute;
+	top: 1.5em;
+	right: 40%;
+	content: ".";
+	background: rgba(32, 167, 245, 0.6);
+	width: 10%;
+	height: 3em;
+}
+
+#header .circulos-caderno {
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	border-right: 1px dashed #20a7f5;
+}
+
+.circulos-caderno span {
+	content: ".";
+	border-radius: 50%;
+	border: 1px solid #20a7f5;
+	height: 25px;
+	width: 25px;
+	box-shadow: inset -3px 3px 3px 2px rgba(111, 126, 145, 0.8);
+}
+
+#sla {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	width: 100%;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 2em;
+	align-items: center;
+	height: 100%;
+}
+
+#sla span {
+	padding: 0 1em;
+	font-family: "Rubik Doodle Shadow", display;
+	transition: 1s;
+	font-size: 1.5em;
+}
+
+#plus:hover, #menu:hover {
+	cursor: pointer;
+	transform: rotate(360deg);
+}
+
+/*
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 50px solid white;
+  border-right: 0px;
+  background-color: white;
+  border-top: 50px solid #6f7e91;
+  position: absolute;
+  top: 11em;
+  right: calc(91% + 4px);
+  box-shadow: 3px -3px 3px 2px rgba(111, 126, 145, 0.8);
+}
+*/
+
+#assinatura {
+	font-size: 15px;
+}
+
+#assinatura span {
+	font-family: "Redacted Script", cursive;
+}
+
+#menu_opc {
+	border: 2px solid #20a7f5;
+	border-top: none;
+	height: 200px;
+	width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 10% 90%;
+}
+
+#menu_opc .circulos-caderno {
+	width: 65px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	border-right: 1px dashed #20a7f5;
+	flex-wrap: wrap;
+}
+
+#menu_opc .circulos-caderno span {
+	display: block;
+	padding: 0 20px;
+	width: 25px;
+}
+#corpo {
+	font-family: "Quattrocento", display;
+	padding: 1em 3em 1em 10em;
+	margin: auto;
+	font-size: 1.2em;
+}
+
+#corpo p {
+	margin: 0.5em 0;
+	font-size: 1em;
+	line-height: 1;
+	text-indent: 30px;
+	text-align: justify;
+}
+
+#corpo ol li {
+	text-indent: 0;
+	margin-bottom: 1.5em;
+}
+
+#corpo ul li ul li{
+	margin: 10px 0 0 0;
+
+}
+
+#corpo ul li span {
+	display: inline-block;
+	width: 100%;
+	height: 2em;
+	text-align: center;
+	font-family: "Rubik Doodle Shadow", display;
+	font-size: 2em;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+/*
+
+#corpo ul li span:after, #corpo ul li span:before {
+	content: "    \007E \007E \007E \007E \007E    ";
+	font-family: "Redacted Script", cursive;
+}
+
+*/
+
+#corpo ol li {
+	margin-left: 3em;
+	list-style-type: decimal;
+}
+
+#corpo ol ul li {
+	list-style-type: circle;
+}
+
+#corpo ol li ul li  {
+	list-style-type: "\2014";
+	padding-left: 1em;
+}
+
+.postit {
+	content: " ";
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-items: space-between;
+}
+
+.postit span {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 200px;
+	height: 30px;
+}
+
+#postit1 {
+	background: rgba(247, 146, 215, 0.6);
+	top: 45em;
+	left: -1em;
+	transform: rotate(20deg);
+}
+
+#cola1 {
+	background: rgba(247, 146, 215);
+}
+
+#postit2 {
+	background: rgba(233, 252, 149, 0.6);
+	top: 11em;
+	right: 0;
+	font-family: "Redacted Script", cursive;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+#cola2 {
+	background: rgba(233, 252, 149);
+}
+
+/*
+.highlight {
+	content: " ";
+	transform: skewX(-30deg);
+	background: rgba(32, 167, 245, 0.6);
+	display: block;
+	width: 60%;
+	position: absolute;
+	bottom: 0.5em;
+	padding: 0;
+}
+*/
